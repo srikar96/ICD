@@ -1,0 +1,5942 @@
+{
+		"section": [
+			{
+				"desc": "Symptoms and signs involving the circulatory and respiratory systems (R00-R09)",
+				"diag": [
+					{
+						"name": "R00",
+						"desc": "Abnormalities of heart beat",
+						"excludes1": {
+							"note": "abnormalities originating in the perinatal period (P29.1-)"
+						},
+						"excludes2": {
+							"note": "specified arrhythmias (I47-I49)"
+						},
+						"diag": [
+							{
+								"name": "R00.0",
+								"desc": "Tachycardia, unspecified",
+								"inclusionTerm": {
+									"note": [
+										"Rapid heart beat",
+										"Sinoauricular tachycardia NOS",
+										"Sinus [sinusal] tachycardia NOS"
+									]
+								},
+								"excludes1": {
+									"note": [
+										"neonatal tachycardia (P29.11)",
+										"paroxysmal tachycardia (I47.-)"
+									]
+								}
+							},
+							{
+								"name": "R00.1",
+								"desc": "Bradycardia, unspecified",
+								"inclusionTerm": {
+									"note": [
+										"Sinoatrial bradycardia",
+										"Sinus bradycardia",
+										"Slow heart beat",
+										"Vagal bradycardia"
+									]
+								},
+								"useAdditionalCode": {
+									"note": "code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"
+								},
+								"excludes1": {
+									"note": "neonatal bradycardia (P29.12)"
+								}
+							},
+							{
+								"name": "R00.2",
+								"desc": "Palpitations",
+								"inclusionTerm": {
+									"note": "Awareness of heart beat"
+								}
+							},
+							{
+								"name": "R00.8",
+								"desc": "Other abnormalities of heart beat"
+							},
+							{
+								"name": "R00.9",
+								"desc": "Unspecified abnormalities of heart beat"
+							}
+						]
+					},
+					{
+						"name": "R01",
+						"desc": "Cardiac murmurs and other cardiac sounds",
+						"excludes1": {
+							"note": "cardiac murmurs and sounds originating in the perinatal period (P29.8)"
+						},
+						"diag": [
+							{
+								"name": "R01.0",
+								"desc": "Benign and innocent cardiac murmurs",
+								"inclusionTerm": {
+									"note": "Functional cardiac murmur"
+								}
+							},
+							{
+								"name": "R01.1",
+								"desc": "Cardiac murmur, unspecified",
+								"inclusionTerm": {
+									"note": [
+										"Cardiac bruit NOS",
+										"Heart murmur NOS",
+										"Systolic murmur NOS"
+									]
+								}
+							},
+							{
+								"name": "R01.2",
+								"desc": "Other cardiac sounds",
+								"inclusionTerm": {
+									"note": [
+										"Cardiac dullness, increased or decreased",
+										"Precordial friction"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R03",
+						"desc": "Abnormal blood-pressure reading, without diagnosis",
+						"diag": [
+							{
+								"name": "R03.0",
+								"desc": "Elevated blood-pressure reading, without diagnosis of hypertension",
+								"notes": {
+									"note": "This category is to be used to record an episode of elevated blood pressure in a patient in whom no formal diagnosis of hypertension has been made, or as an isolated incidental finding."
+								}
+							},
+							{
+								"name": "R03.1",
+								"desc": "Nonspecific low blood-pressure reading",
+								"excludes1": {
+									"note": [
+										"hypotension (I95.-)",
+										"maternal hypotension syndrome (O26.5-)",
+										"neurogenic orthostatic hypotension (G90.3)"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R04",
+						"desc": "Hemorrhage from respiratory passages",
+						"diag": [
+							{
+								"name": "R04.0",
+								"desc": "Epistaxis",
+								"inclusionTerm": {
+									"note": [
+										"Hemorrhage from nose",
+										"Nosebleed"
+									]
+								}
+							},
+							{
+								"name": "R04.1",
+								"desc": "Hemorrhage from throat",
+								"excludes2": {
+									"note": "hemoptysis (R04.2)"
+								}
+							},
+							{
+								"name": "R04.2",
+								"desc": "Hemoptysis",
+								"inclusionTerm": {
+									"note": [
+										"Blood-stained sputum",
+										"Cough with hemorrhage"
+									]
+								}
+							},
+							{
+								"name": "R04.8",
+								"desc": "Hemorrhage from other sites in respiratory passages",
+								"diag": [
+									{
+										"name": "R04.81",
+										"desc": "Acute idiopathic pulmonary hemorrhage in infants",
+										"inclusionTerm": {
+											"note": [
+												"AIPHI",
+												"Acute idiopathic hemorrhage in infants over 28 days old"
+											]
+										},
+										"excludes1": {
+											"note": [
+												"perinatal pulmonary hemorrhage (P26.-)",
+												"von Willebrand's disease (D68.0)"
+											]
+										}
+									},
+									{
+										"name": "R04.89",
+										"desc": "Hemorrhage from other sites in respiratory passages",
+										"inclusionTerm": {
+											"note": "Pulmonary hemorrhage NOS"
+										}
+									}
+								]
+							},
+							{
+								"name": "R04.9",
+								"desc": "Hemorrhage from respiratory passages, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R05",
+						"desc": "Cough",
+						"excludes1": {
+							"note": [
+								"cough with hemorrhage (R04.2)",
+								"smoker's cough (J41.0)"
+							]
+						}
+					},
+					{
+						"name": "R06",
+						"desc": "Abnormalities of breathing",
+						"excludes1": {
+							"note": [
+								"acute respiratory distress syndrome (J80)",
+								"respiratory arrest (R09.2)",
+								"respiratory arrest of newborn (P28.81)",
+								"respiratory distress syndrome of newborn (P22.-)",
+								"respiratory failure (J96.-)",
+								"respiratory failure of newborn (P28.5)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R06.0",
+								"desc": "Dyspnea",
+								"excludes1": {
+									"note": [
+										"tachypnea NOS (R06.82)",
+										"transient tachypnea of newborn (P22.1)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R06.00",
+										"desc": "Dyspnea, unspecified"
+									},
+									{
+										"name": "R06.01",
+										"desc": "Orthopnea"
+									},
+									{
+										"name": "R06.02",
+										"desc": "Shortness of breath"
+									},
+									{
+										"name": "R06.03",
+										"desc": "Acute respiratory distress"
+									},
+									{
+										"name": "R06.09",
+										"desc": "Other forms of dyspnea"
+									}
+								]
+							},
+							{
+								"name": "R06.1",
+								"desc": "Stridor",
+								"excludes1": {
+									"note": [
+										"congenital laryngeal stridor (P28.89)",
+										"laryngismus (stridulus) (J38.5)"
+									]
+								}
+							},
+							{
+								"name": "R06.2",
+								"desc": "Wheezing",
+								"excludes1": {
+									"note": "Asthma (J45.-)"
+								}
+							},
+							{
+								"name": "R06.3",
+								"desc": "Periodic breathing",
+								"inclusionTerm": {
+									"note": "Cheyne-Stokes breathing"
+								}
+							},
+							{
+								"name": "R06.4",
+								"desc": "Hyperventilation",
+								"excludes1": {
+									"note": "psychogenic hyperventilation (F45.8)"
+								}
+							},
+							{
+								"name": "R06.5",
+								"desc": "Mouth breathing",
+								"excludes2": {
+									"note": "dry mouth NOS (R68.2)"
+								}
+							},
+							{
+								"name": "R06.6",
+								"desc": "Hiccough",
+								"excludes1": {
+									"note": "psychogenic hiccough (F45.8)"
+								}
+							},
+							{
+								"name": "R06.7",
+								"desc": "Sneezing"
+							},
+							{
+								"name": "R06.8",
+								"desc": "Other abnormalities of breathing",
+								"diag": [
+									{
+										"name": "R06.81",
+										"desc": "Apnea, not elsewhere classified",
+										"inclusionTerm": {
+											"note": "Apnea NOS"
+										},
+										"excludes1": {
+											"note": [
+												"apnea (of) newborn (P28.4)",
+												"sleep apnea (G47.3-)",
+												"sleep apnea of newborn (primary) (P28.3)"
+											]
+										}
+									},
+									{
+										"name": "R06.82",
+										"desc": "Tachypnea, not elsewhere classified",
+										"inclusionTerm": {
+											"note": "Tachypnea NOS"
+										},
+										"excludes1": {
+											"note": "transitory tachypnea of newborn (P22.1)"
+										}
+									},
+									{
+										"name": "R06.83",
+										"desc": "Snoring"
+									},
+									{
+										"name": "R06.89",
+										"desc": "Other abnormalities of breathing",
+										"inclusionTerm": {
+											"note": [
+												"Breath-holding (spells)",
+												"Sighing"
+											]
+										}
+									}
+								]
+							},
+							{
+								"name": "R06.9",
+								"desc": "Unspecified abnormalities of breathing"
+							}
+						]
+					},
+					{
+						"name": "R07",
+						"desc": "Pain in throat and chest",
+						"excludes1": {
+							"note": "epidemic myalgia (B33.0)"
+						},
+						"excludes2": {
+							"note": [
+								"jaw pain R68.84",
+								"pain in breast (N64.4)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R07.0",
+								"desc": "Pain in throat",
+								"excludes1": {
+									"note": [
+										"chronic sore throat (J31.2)",
+										"sore throat (acute) NOS (J02.9)"
+									]
+								},
+								"excludes2": {
+									"note": [
+										"dysphagia (R13.1-)",
+										"pain in neck (M54.2)"
+									]
+								}
+							},
+							{
+								"name": "R07.1",
+								"desc": "Chest pain on breathing",
+								"inclusionTerm": {
+									"note": "Painful respiration"
+								}
+							},
+							{
+								"name": "R07.2",
+								"desc": "Precordial pain"
+							},
+							{
+								"name": "R07.8",
+								"desc": "Other chest pain",
+								"diag": [
+									{
+										"name": "R07.81",
+										"desc": "Pleurodynia",
+										"inclusionTerm": {
+											"note": "Pleurodynia NOS"
+										},
+										"excludes1": {
+											"note": "epidemic pleurodynia (B33.0)"
+										}
+									},
+									{
+										"name": "R07.82",
+										"desc": "Intercostal pain"
+									},
+									{
+										"name": "R07.89",
+										"desc": "Other chest pain",
+										"inclusionTerm": {
+											"note": "Anterior chest-wall pain NOS"
+										}
+									}
+								]
+							},
+							{
+								"name": "R07.9",
+								"desc": "Chest pain, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R09",
+						"desc": "Other symptoms and signs involving the circulatory and respiratory system",
+						"excludes1": {
+							"note": [
+								"acute respiratory distress syndrome (J80)",
+								"respiratory arrest of newborn (P28.81)",
+								"respiratory distress syndrome of newborn (P22.0)",
+								"respiratory failure (J96.-)",
+								"respiratory failure of newborn (P28.5)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R09.0",
+								"desc": "Asphyxia and hypoxemia",
+								"excludes1": {
+									"note": [
+										"asphyxia due to carbon monoxide (T58.-)",
+										"asphyxia due to foreign body in respiratory tract (T17.-)",
+										"birth (intrauterine) asphyxia (P84)",
+										"hyperventilation (R06.4)",
+										"traumatic asphyxia (T71.-)"
+									]
+								},
+								"excludes2": {
+									"note": "hypercapnia (R06.89)"
+								},
+								"diag": [
+									{
+										"name": "R09.01",
+										"desc": "Asphyxia"
+									},
+									{
+										"name": "R09.02",
+										"desc": "Hypoxemia"
+									}
+								]
+							},
+							{
+								"name": "R09.1",
+								"desc": "Pleurisy",
+								"excludes1": {
+									"note": "pleurisy with effusion (J90)"
+								}
+							},
+							{
+								"name": "R09.2",
+								"desc": "Respiratory arrest",
+								"inclusionTerm": {
+									"note": "Cardiorespiratory failure"
+								},
+								"excludes1": {
+									"note": [
+										"cardiac arrest (I46.-)",
+										"respiratory arrest of newborn (P28.81)",
+										"respiratory distress of newborn (P22.0)",
+										"respiratory failure (J96.-)",
+										"respiratory failure of newborn (P28.5)",
+										"respiratory insufficiency (R06.89)",
+										"respiratory insufficiency of newborn (P28.5)"
+									]
+								}
+							},
+							{
+								"name": "R09.3",
+								"desc": "Abnormal sputum",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal amount of sputum",
+										"Abnormal color of sputum",
+										"Abnormal odor of sputum",
+										"Excessive sputum"
+									]
+								},
+								"excludes1": {
+									"note": "blood-stained sputum (R04.2)"
+								}
+							},
+							{
+								"name": "R09.8",
+								"desc": "Other specified symptoms and signs involving the circulatory and respiratory systems",
+								"diag": [
+									{
+										"name": "R09.81",
+										"desc": "Nasal congestion"
+									},
+									{
+										"name": "R09.82",
+										"desc": "Postnasal drip"
+									},
+									{
+										"name": "R09.89",
+										"desc": "Other specified symptoms and signs involving the circulatory and respiratory systems",
+										"inclusionTerm": {
+											"note": [
+												"Bruit (arterial)",
+												"Abnormal chest percussion",
+												"Feeling of foreign body in throat",
+												"Friction sounds in chest",
+												"Chest tympany",
+												"Choking sensation",
+												"Rales",
+												"Weak pulse"
+											]
+										},
+										"excludes2": {
+											"note": [
+												"foreign body in throat (T17.2-)",
+												"wheezing (R06.2)"
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"_id": "R00-R09"
+			},
+			{
+				"desc": "Symptoms and signs involving the digestive system and abdomen (R10-R19)",
+				"excludes2": {
+					"note": [
+						"congenital or infantile pylorospasm (Q40.0)",
+						"gastrointestinal hemorrhage (K92.0-K92.2)",
+						"intestinal obstruction (K56.-)",
+						"newborn gastrointestinal hemorrhage (P54.0-P54.3)",
+						"newborn intestinal obstruction (P76.-)",
+						"pylorospasm (K31.3)",
+						"signs and symptoms involving the urinary system (R30-R39)",
+						"symptoms referable to female genital organs (N94.-)",
+						"symptoms referable to male genital organs (N48-N50)"
+					]
+				},
+				"diag": [
+					{
+						"name": "R10",
+						"desc": "Abdominal and pelvic pain",
+						"excludes1": {
+							"note": "renal colic (N23)"
+						},
+						"excludes2": {
+							"note": [
+								"dorsalgia (M54.-)",
+								"flatulence and related conditions (R14.-)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R10.0",
+								"desc": "Acute abdomen",
+								"inclusionTerm": {
+									"note": "Severe abdominal pain (generalized) (with abdominal rigidity)"
+								},
+								"excludes1": {
+									"note": [
+										"abdominal rigidity NOS (R19.3)",
+										"generalized abdominal pain NOS (R10.84)",
+										"localized abdominal pain (R10.1-R10.3-)"
+									]
+								}
+							},
+							{
+								"name": "R10.1",
+								"desc": "Pain localized to upper abdomen",
+								"diag": [
+									{
+										"name": "R10.10",
+										"desc": "Upper abdominal pain, unspecified"
+									},
+									{
+										"name": "R10.11",
+										"desc": "Right upper quadrant pain"
+									},
+									{
+										"name": "R10.12",
+										"desc": "Left upper quadrant pain"
+									},
+									{
+										"name": "R10.13",
+										"desc": "Epigastric pain",
+										"inclusionTerm": {
+											"note": "Dyspepsia"
+										},
+										"excludes1": {
+											"note": "functional dyspepsia (K30)"
+										}
+									}
+								]
+							},
+							{
+								"name": "R10.2",
+								"desc": "Pelvic and perineal pain",
+								"excludes1": {
+									"note": "vulvodynia (N94.81)"
+								}
+							},
+							{
+								"name": "R10.3",
+								"desc": "Pain localized to other parts of lower abdomen",
+								"diag": [
+									{
+										"name": "R10.30",
+										"desc": "Lower abdominal pain, unspecified"
+									},
+									{
+										"name": "R10.31",
+										"desc": "Right lower quadrant pain"
+									},
+									{
+										"name": "R10.32",
+										"desc": "Left lower quadrant pain"
+									},
+									{
+										"name": "R10.33",
+										"desc": "Periumbilical pain"
+									}
+								]
+							},
+							{
+								"name": "R10.8",
+								"desc": "Other abdominal pain",
+								"diag": [
+									{
+										"name": "R10.81",
+										"desc": "Abdominal tenderness",
+										"inclusionTerm": {
+											"note": "Abdominal tenderness NOS"
+										},
+										"diag": [
+											{
+												"name": "R10.811",
+												"desc": "Right upper quadrant abdominal tenderness"
+											},
+											{
+												"name": "R10.812",
+												"desc": "Left upper quadrant abdominal tenderness"
+											},
+											{
+												"name": "R10.813",
+												"desc": "Right lower quadrant abdominal tenderness"
+											},
+											{
+												"name": "R10.814",
+												"desc": "Left lower quadrant abdominal tenderness"
+											},
+											{
+												"name": "R10.815",
+												"desc": "Periumbilic abdominal tenderness"
+											},
+											{
+												"name": "R10.816",
+												"desc": "Epigastric abdominal tenderness"
+											},
+											{
+												"name": "R10.817",
+												"desc": "Generalized abdominal tenderness"
+											},
+											{
+												"name": "R10.819",
+												"desc": "Abdominal tenderness, unspecified site"
+											}
+										]
+									},
+									{
+										"name": "R10.82",
+										"desc": "Rebound abdominal tenderness",
+										"diag": [
+											{
+												"name": "R10.821",
+												"desc": "Right upper quadrant rebound abdominal tenderness"
+											},
+											{
+												"name": "R10.822",
+												"desc": "Left upper quadrant rebound abdominal tenderness"
+											},
+											{
+												"name": "R10.823",
+												"desc": "Right lower quadrant rebound abdominal tenderness"
+											},
+											{
+												"name": "R10.824",
+												"desc": "Left lower quadrant rebound abdominal tenderness"
+											},
+											{
+												"name": "R10.825",
+												"desc": "Periumbilic rebound abdominal tenderness"
+											},
+											{
+												"name": "R10.826",
+												"desc": "Epigastric rebound abdominal tenderness"
+											},
+											{
+												"name": "R10.827",
+												"desc": "Generalized rebound abdominal tenderness"
+											},
+											{
+												"name": "R10.829",
+												"desc": "Rebound abdominal tenderness, unspecified site"
+											}
+										]
+									},
+									{
+										"name": "R10.83",
+										"desc": "Colic",
+										"inclusionTerm": {
+											"note": [
+												"Colic NOS",
+												"Infantile colic"
+											]
+										},
+										"excludes1": {
+											"note": "colic in adult and child over 12 months old (R10.84)"
+										}
+									},
+									{
+										"name": "R10.84",
+										"desc": "Generalized abdominal pain",
+										"excludes1": {
+											"note": "generalized abdominal pain associated with acute abdomen (R10.0)"
+										}
+									}
+								]
+							},
+							{
+								"name": "R10.9",
+								"desc": "Unspecified abdominal pain"
+							}
+						]
+					},
+					{
+						"name": "R11",
+						"desc": "Nausea and vomiting",
+						"excludes1": {
+							"note": [
+								"cyclical vomiting associated with migraine (G43.A-)",
+								"excessive vomiting in pregnancy (O21.-)",
+								"hematemesis (K92.0)",
+								"neonatal hematemesis (P54.0)",
+								"newborn vomiting (P92.0-)",
+								"psychogenic vomiting (F50.89)",
+								"vomiting associated with bulimia nervosa (F50.2)",
+								"vomiting following gastrointestinal surgery (K91.0)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R11.0",
+								"desc": "Nausea",
+								"inclusionTerm": {
+									"note": [
+										"Nausea NOS",
+										"Nausea without vomiting"
+									]
+								}
+							},
+							{
+								"name": "R11.1",
+								"desc": "Vomiting",
+								"diag": [
+									{
+										"name": "R11.10",
+										"desc": "Vomiting, unspecified",
+										"inclusionTerm": {
+											"note": "Vomiting NOS"
+										}
+									},
+									{
+										"name": "R11.11",
+										"desc": "Vomiting without nausea"
+									},
+									{
+										"name": "R11.12",
+										"desc": "Projectile vomiting"
+									},
+									{
+										"name": "R11.13",
+										"desc": "Vomiting of fecal matter"
+									},
+									{
+										"name": "R11.14",
+										"desc": "Bilious vomiting",
+										"inclusionTerm": {
+											"note": "Bilious emesis"
+										}
+									}
+								]
+							},
+							{
+								"name": "R11.2",
+								"desc": "Nausea with vomiting, unspecified",
+								"inclusionTerm": {
+									"note": "Persistent nausea with vomiting NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R12",
+						"desc": "Heartburn",
+						"excludes1": {
+							"note": [
+								"dyspepsia NOS (R10.13)",
+								"functional dyspepsia (K30)"
+							]
+						}
+					},
+					{
+						"name": "R13",
+						"desc": "Aphagia and dysphagia",
+						"diag": [
+							{
+								"name": "R13.0",
+								"desc": "Aphagia",
+								"inclusionTerm": {
+									"note": "Inability to swallow"
+								},
+								"excludes1": {
+									"note": "psychogenic aphagia (F50.9)"
+								}
+							},
+							{
+								"name": "R13.1",
+								"desc": "Dysphagia",
+								"codeFirst": {
+									"note": ", if applicable, dysphagia following cerebrovascular disease (I69. with final characters -91)"
+								},
+								"excludes1": {
+									"note": "psychogenic dysphagia (F45.8)"
+								},
+								"diag": [
+									{
+										"name": "R13.10",
+										"desc": "Dysphagia, unspecified",
+										"inclusionTerm": {
+											"note": "Difficulty in swallowing NOS"
+										}
+									},
+									{
+										"name": "R13.11",
+										"desc": "Dysphagia, oral phase"
+									},
+									{
+										"name": "R13.12",
+										"desc": "Dysphagia, oropharyngeal phase"
+									},
+									{
+										"name": "R13.13",
+										"desc": "Dysphagia, pharyngeal phase"
+									},
+									{
+										"name": "R13.14",
+										"desc": "Dysphagia, pharyngoesophageal phase"
+									},
+									{
+										"name": "R13.19",
+										"desc": "Other dysphagia",
+										"inclusionTerm": {
+											"note": [
+												"Cervical dysphagia",
+												"Neurogenic dysphagia"
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "R14",
+						"desc": "Flatulence and related conditions",
+						"excludes1": {
+							"note": "psychogenic aerophagy (F45.8)"
+						},
+						"diag": [
+							{
+								"name": "R14.0",
+								"desc": "Abdominal distension (gaseous)",
+								"inclusionTerm": {
+									"note": [
+										"Bloating",
+										"Tympanites (abdominal) (intestinal)"
+									]
+								}
+							},
+							{
+								"name": "R14.1",
+								"desc": "Gas pain"
+							},
+							{
+								"name": "R14.2",
+								"desc": "Eructation"
+							},
+							{
+								"name": "R14.3",
+								"desc": "Flatulence"
+							}
+						]
+					},
+					{
+						"name": "R15",
+						"desc": "Fecal incontinence",
+						"includes": {
+							"note": "encopresis NOS"
+						},
+						"excludes1": {
+							"note": "fecal incontinence of nonorganic origin (F98.1)"
+						},
+						"diag": [
+							{
+								"name": "R15.0",
+								"desc": "Incomplete defecation",
+								"excludes1": {
+									"note": [
+										"constipation (K59.0-)",
+										"fecal impaction (K56.41)"
+									]
+								}
+							},
+							{
+								"name": "R15.1",
+								"desc": "Fecal smearing",
+								"inclusionTerm": {
+									"note": "Fecal soiling"
+								}
+							},
+							{
+								"name": "R15.2",
+								"desc": "Fecal urgency"
+							},
+							{
+								"name": "R15.9",
+								"desc": "Full incontinence of feces",
+								"inclusionTerm": {
+									"note": "Fecal incontinence NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R16",
+						"desc": "Hepatomegaly and splenomegaly, not elsewhere classified",
+						"diag": [
+							{
+								"name": "R16.0",
+								"desc": "Hepatomegaly, not elsewhere classified",
+								"inclusionTerm": {
+									"note": "Hepatomegaly NOS"
+								}
+							},
+							{
+								"name": "R16.1",
+								"desc": "Splenomegaly, not elsewhere classified",
+								"inclusionTerm": {
+									"note": "Splenomegaly NOS"
+								}
+							},
+							{
+								"name": "R16.2",
+								"desc": "Hepatomegaly with splenomegaly, not elsewhere classified",
+								"inclusionTerm": {
+									"note": "Hepatosplenomegaly NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R17",
+						"desc": "Unspecified jaundice",
+						"excludes1": {
+							"note": "neonatal jaundice (P55, P57-P59)"
+						}
+					},
+					{
+						"name": "R18",
+						"desc": "Ascites",
+						"includes": {
+							"note": "fluid in peritoneal cavity"
+						},
+						"excludes1": {
+							"note": [
+								"ascites in alcoholic cirrhosis (K70.31)",
+								"ascites in alcoholic hepatitis (K70.11)",
+								"ascites in toxic liver disease with chronic active hepatitis (K71.51)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R18.0",
+								"desc": "Malignant ascites",
+								"codeFirst": {
+									"note": [
+										"malignancy, such as:",
+										"malignant neoplasm of ovary (C56.-)",
+										"secondary malignant neoplasm of retroperitoneum and peritoneum (C78.6)"
+									]
+								}
+							},
+							{
+								"name": "R18.8",
+								"desc": "Other ascites",
+								"inclusionTerm": {
+									"note": [
+										"Ascites NOS",
+										"Peritoneal effusion (chronic)"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R19",
+						"desc": "Other symptoms and signs involving the digestive system and abdomen",
+						"excludes1": {
+							"note": "acute abdomen (R10.0)"
+						},
+						"diag": [
+							{
+								"name": "R19.0",
+								"desc": "Intra-abdominal and pelvic swelling, mass and lump",
+								"excludes1": {
+									"note": [
+										"abdominal distension (gaseous) (R14.-)",
+										"ascites (R18.-)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R19.00",
+										"desc": "Intra-abdominal and pelvic swelling, mass and lump, unspecified site"
+									},
+									{
+										"name": "R19.01",
+										"desc": "Right upper quadrant abdominal swelling, mass and lump"
+									},
+									{
+										"name": "R19.02",
+										"desc": "Left upper quadrant abdominal swelling, mass and lump"
+									},
+									{
+										"name": "R19.03",
+										"desc": "Right lower quadrant abdominal swelling, mass and lump"
+									},
+									{
+										"name": "R19.04",
+										"desc": "Left lower quadrant abdominal swelling, mass and lump"
+									},
+									{
+										"name": "R19.05",
+										"desc": "Periumbilic swelling, mass or lump",
+										"inclusionTerm": {
+											"note": "Diffuse or generalized umbilical swelling or mass"
+										}
+									},
+									{
+										"name": "R19.06",
+										"desc": "Epigastric swelling, mass or lump"
+									},
+									{
+										"name": "R19.07",
+										"desc": "Generalized intra-abdominal and pelvic swelling, mass and lump",
+										"inclusionTerm": {
+											"note": [
+												"Diffuse or generalized intra-abdominal swelling or mass NOS",
+												"Diffuse or generalized pelvic swelling or mass NOS"
+											]
+										}
+									},
+									{
+										"name": "R19.09",
+										"desc": "Other intra-abdominal and pelvic swelling, mass and lump"
+									}
+								]
+							},
+							{
+								"name": "R19.1",
+								"desc": "Abnormal bowel sounds",
+								"diag": [
+									{
+										"name": "R19.11",
+										"desc": "Absent bowel sounds"
+									},
+									{
+										"name": "R19.12",
+										"desc": "Hyperactive bowel sounds"
+									},
+									{
+										"name": "R19.15",
+										"desc": "Other abnormal bowel sounds",
+										"inclusionTerm": {
+											"note": "Abnormal bowel sounds NOS"
+										}
+									}
+								]
+							},
+							{
+								"name": "R19.2",
+								"desc": "Visible peristalsis",
+								"inclusionTerm": {
+									"note": "Hyperperistalsis"
+								}
+							},
+							{
+								"name": "R19.3",
+								"desc": "Abdominal rigidity",
+								"excludes1": {
+									"note": "abdominal rigidity with severe abdominal pain (R10.0)"
+								},
+								"diag": [
+									{
+										"name": "R19.30",
+										"desc": "Abdominal rigidity, unspecified site"
+									},
+									{
+										"name": "R19.31",
+										"desc": "Right upper quadrant abdominal rigidity"
+									},
+									{
+										"name": "R19.32",
+										"desc": "Left upper quadrant abdominal rigidity"
+									},
+									{
+										"name": "R19.33",
+										"desc": "Right lower quadrant abdominal rigidity"
+									},
+									{
+										"name": "R19.34",
+										"desc": "Left lower quadrant abdominal rigidity"
+									},
+									{
+										"name": "R19.35",
+										"desc": "Periumbilic abdominal rigidity"
+									},
+									{
+										"name": "R19.36",
+										"desc": "Epigastric abdominal rigidity"
+									},
+									{
+										"name": "R19.37",
+										"desc": "Generalized abdominal rigidity"
+									}
+								]
+							},
+							{
+								"name": "R19.4",
+								"desc": "Change in bowel habit",
+								"excludes1": {
+									"note": [
+										"constipation (K59.0-)",
+										"functional diarrhea (K59.1)"
+									]
+								}
+							},
+							{
+								"name": "R19.5",
+								"desc": "Other fecal abnormalities",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal stool color",
+										"Bulky stools",
+										"Mucus in stools",
+										"Occult blood in feces",
+										"Occult blood in stools"
+									]
+								},
+								"excludes1": {
+									"note": [
+										"melena (K92.1)",
+										"neonatal melena (P54.1)"
+									]
+								}
+							},
+							{
+								"name": "R19.6",
+								"desc": "Halitosis"
+							},
+							{
+								"name": "R19.7",
+								"desc": "Diarrhea, unspecified",
+								"inclusionTerm": {
+									"note": "Diarrhea NOS"
+								},
+								"excludes1": {
+									"note": [
+										"functional diarrhea (K59.1)",
+										"neonatal diarrhea (P78.3)",
+										"psychogenic diarrhea (F45.8)"
+									]
+								}
+							},
+							{
+								"name": "R19.8",
+								"desc": "Other specified symptoms and signs involving the digestive system and abdomen"
+							}
+						]
+					}
+				],
+				"_id": "R10-R19"
+			},
+			{
+				"desc": "Symptoms and signs involving the skin and subcutaneous tissue (R20-R23)",
+				"excludes2": {
+					"note": "symptoms relating to breast (N64.4-N64.5)"
+				},
+				"diag": [
+					{
+						"name": "R20",
+						"desc": "Disturbances of skin sensation",
+						"excludes1": {
+							"note": [
+								"dissociative anesthesia and sensory loss (F44.6)",
+								"psychogenic disturbances (F45.8)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R20.0",
+								"desc": "Anesthesia of skin"
+							},
+							{
+								"name": "R20.1",
+								"desc": "Hypoesthesia of skin"
+							},
+							{
+								"name": "R20.2",
+								"desc": "Paresthesia of skin",
+								"inclusionTerm": {
+									"note": [
+										"Formication",
+										"Pins and needles",
+										"Tingling skin"
+									]
+								},
+								"excludes1": {
+									"note": "acroparesthesia (I73.8)"
+								}
+							},
+							{
+								"name": "R20.3",
+								"desc": "Hyperesthesia"
+							},
+							{
+								"name": "R20.8",
+								"desc": "Other disturbances of skin sensation"
+							},
+							{
+								"name": "R20.9",
+								"desc": "Unspecified disturbances of skin sensation"
+							}
+						]
+					},
+					{
+						"name": "R21",
+						"desc": "Rash and other nonspecific skin eruption",
+						"includes": {
+							"note": "rash NOS"
+						},
+						"excludes1": {
+							"note": [
+								"specified type of rash- code to condition",
+								"vesicular eruption (R23.8)"
+							]
+						}
+					},
+					{
+						"name": "R22",
+						"desc": "Localized swelling, mass and lump of skin and subcutaneous tissue",
+						"includes": {
+							"note": "subcutaneous nodules (localized)(superficial)"
+						},
+						"excludes1": {
+							"note": [
+								"abnormal findings on diagnostic imaging (R90-R93)",
+								"edema (R60.-)",
+								"enlarged lymph nodes (R59.-)",
+								"localized adiposity (E65)",
+								"swelling of joint (M25.4-)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R22.0",
+								"desc": "Localized swelling, mass and lump, head"
+							},
+							{
+								"name": "R22.1",
+								"desc": "Localized swelling, mass and lump, neck"
+							},
+							{
+								"name": "R22.2",
+								"desc": "Localized swelling, mass and lump, trunk",
+								"excludes1": {
+									"note": [
+										"intra-abdominal or pelvic mass and lump (R19.0-)",
+										"intra-abdominal or pelvic swelling (R19.0-)"
+									]
+								},
+								"excludes2": {
+									"note": "breast mass and lump (N63)"
+								}
+							},
+							{
+								"name": "R22.3",
+								"desc": "Localized swelling, mass and lump, upper limb",
+								"diag": [
+									{
+										"name": "R22.30",
+										"desc": "Localized swelling, mass and lump, unspecified upper limb"
+									},
+									{
+										"name": "R22.31",
+										"desc": "Localized swelling, mass and lump, right upper limb"
+									},
+									{
+										"name": "R22.32",
+										"desc": "Localized swelling, mass and lump, left upper limb"
+									},
+									{
+										"name": "R22.33",
+										"desc": "Localized swelling, mass and lump, upper limb, bilateral"
+									}
+								]
+							},
+							{
+								"name": "R22.4",
+								"desc": "Localized swelling, mass and lump, lower limb",
+								"diag": [
+									{
+										"name": "R22.40",
+										"desc": "Localized swelling, mass and lump, unspecified lower limb"
+									},
+									{
+										"name": "R22.41",
+										"desc": "Localized swelling, mass and lump, right lower limb"
+									},
+									{
+										"name": "R22.42",
+										"desc": "Localized swelling, mass and lump, left lower limb"
+									},
+									{
+										"name": "R22.43",
+										"desc": "Localized swelling, mass and lump, lower limb, bilateral"
+									}
+								]
+							},
+							{
+								"name": "R22.9",
+								"desc": "Localized swelling, mass and lump, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R23",
+						"desc": "Other skin changes",
+						"diag": [
+							{
+								"name": "R23.0",
+								"desc": "Cyanosis",
+								"excludes1": {
+									"note": [
+										"acrocyanosis (I73.8)",
+										"cyanotic attacks of newborn (P28.2)"
+									]
+								}
+							},
+							{
+								"name": "R23.1",
+								"desc": "Pallor",
+								"inclusionTerm": {
+									"note": "Clammy skin"
+								}
+							},
+							{
+								"name": "R23.2",
+								"desc": "Flushing",
+								"inclusionTerm": {
+									"note": "Excessive blushing"
+								},
+								"codeFirst": {
+									"note": ", if applicable, menopausal and female climacteric states (N95.1)"
+								}
+							},
+							{
+								"name": "R23.3",
+								"desc": "Spontaneous ecchymoses",
+								"inclusionTerm": {
+									"note": "Petechiae"
+								},
+								"excludes1": {
+									"note": [
+										"ecchymoses of newborn (P54.5)",
+										"purpura (D69.-)"
+									]
+								}
+							},
+							{
+								"name": "R23.4",
+								"desc": "Changes in skin texture",
+								"inclusionTerm": {
+									"note": [
+										"Desquamation of skin",
+										"Induration of skin",
+										"Scaling of skin"
+									]
+								},
+								"excludes1": {
+									"note": "epidermal thickening NOS (L85.9)"
+								}
+							},
+							{
+								"name": "R23.8",
+								"desc": "Other skin changes"
+							},
+							{
+								"name": "R23.9",
+								"desc": "Unspecified skin changes"
+							}
+						]
+					}
+				],
+				"_id": "R20-R23"
+			},
+			{
+				"desc": "Symptoms and signs involving the nervous and musculoskeletal systems (R25-R29)",
+				"diag": [
+					{
+						"name": "R25",
+						"desc": "Abnormal involuntary movements",
+						"excludes1": {
+							"note": [
+								"specific movement disorders (G20-G26)",
+								"stereotyped movement disorders (F98.4)",
+								"tic disorders (F95.-)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R25.0",
+								"desc": "Abnormal head movements"
+							},
+							{
+								"name": "R25.1",
+								"desc": "Tremor, unspecified",
+								"excludes1": {
+									"note": [
+										"chorea NOS (G25.5)",
+										"essential tremor (G25.0)",
+										"hysterical tremor (F44.4)",
+										"intention tremor (G25.2)"
+									]
+								}
+							},
+							{
+								"name": "R25.2",
+								"desc": "Cramp and spasm",
+								"excludes2": {
+									"note": [
+										"carpopedal spasm (R29.0)",
+										"charley-horse (M62.831)",
+										"infantile spasms (G40.4-)",
+										"muscle spasm of back (M62.830)",
+										"muscle spasm of calf (M62.831)"
+									]
+								}
+							},
+							{
+								"name": "R25.3",
+								"desc": "Fasciculation",
+								"inclusionTerm": {
+									"note": "Twitching NOS"
+								}
+							},
+							{
+								"name": "R25.8",
+								"desc": "Other abnormal involuntary movements"
+							},
+							{
+								"name": "R25.9",
+								"desc": "Unspecified abnormal involuntary movements"
+							}
+						]
+					},
+					{
+						"name": "R26",
+						"desc": "Abnormalities of gait and mobility",
+						"excludes1": {
+							"note": [
+								"ataxia NOS (R27.0)",
+								"hereditary ataxia (G11.-)",
+								"locomotor (syphilitic) ataxia (A52.11)",
+								"immobility syndrome (paraplegic) (M62.3)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R26.0",
+								"desc": "Ataxic gait",
+								"inclusionTerm": {
+									"note": "Staggering gait"
+								}
+							},
+							{
+								"name": "R26.1",
+								"desc": "Paralytic gait",
+								"inclusionTerm": {
+									"note": "Spastic gait"
+								}
+							},
+							{
+								"name": "R26.2",
+								"desc": "Difficulty in walking, not elsewhere classified",
+								"excludes1": {
+									"note": [
+										"falling (R29.6)",
+										"unsteadiness on feet (R26.81)"
+									]
+								}
+							},
+							{
+								"name": "R26.8",
+								"desc": "Other abnormalities of gait and mobility",
+								"diag": [
+									{
+										"name": "R26.81",
+										"desc": "Unsteadiness on feet"
+									},
+									{
+										"name": "R26.89",
+										"desc": "Other abnormalities of gait and mobility"
+									}
+								]
+							},
+							{
+								"name": "R26.9",
+								"desc": "Unspecified abnormalities of gait and mobility"
+							}
+						]
+					},
+					{
+						"name": "R27",
+						"desc": "Other lack of coordination",
+						"excludes1": {
+							"note": [
+								"ataxic gait (R26.0)",
+								"hereditary ataxia (G11.-)",
+								"vertigo NOS (R42)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R27.0",
+								"desc": "Ataxia, unspecified",
+								"excludes1": {
+									"note": "ataxia following cerebrovascular disease (I69. with final characters -93)"
+								}
+							},
+							{
+								"name": "R27.8",
+								"desc": "Other lack of coordination"
+							},
+							{
+								"name": "R27.9",
+								"desc": "Unspecified lack of coordination"
+							}
+						]
+					},
+					{
+						"name": "R29",
+						"desc": "Other symptoms and signs involving the nervous and musculoskeletal systems",
+						"diag": [
+							{
+								"name": "R29.0",
+								"desc": "Tetany",
+								"inclusionTerm": {
+									"note": "Carpopedal spasm"
+								},
+								"excludes1": {
+									"note": [
+										"hysterical tetany (F44.5)",
+										"neonatal tetany (P71.3)",
+										"parathyroid tetany (E20.9)",
+										"post-thyroidectomy tetany (E89.2)"
+									]
+								}
+							},
+							{
+								"name": "R29.1",
+								"desc": "Meningismus"
+							},
+							{
+								"name": "R29.2",
+								"desc": "Abnormal reflex",
+								"excludes2": {
+									"note": [
+										"abnormal pupillary reflex (H57.0)",
+										"hyperactive gag reflex (J39.2)",
+										"vasovagal reaction or syncope (R55)"
+									]
+								}
+							},
+							{
+								"name": "R29.3",
+								"desc": "Abnormal posture"
+							},
+							{
+								"name": "R29.4",
+								"desc": "Clicking hip",
+								"excludes1": {
+									"note": "congenital deformities of hip (Q65.-)"
+								}
+							},
+							{
+								"name": "R29.5",
+								"desc": "Transient paralysis",
+								"codeFirst": {
+									"note": "any associated spinal cord injury (S14.0, S14.1-, S24.0, S24.1-, S34.0-, S34.1-)"
+								},
+								"excludes1": {
+									"note": "transient ischemic attack (G45.9)"
+								}
+							},
+							{
+								"name": "R29.6",
+								"desc": "Repeated falls",
+								"inclusionTerm": {
+									"note": [
+										"Falling",
+										"Tendency to fall"
+									]
+								},
+								"excludes2": {
+									"note": [
+										"at risk for falling (Z91.81)",
+										"history of falling (Z91.81)"
+									]
+								}
+							},
+							{
+								"name": "R29.7",
+								"desc": "National Institutes of Health Stroke Scale (NIHSS) score",
+								"codeFirst": {
+									"note": "the type of cerebral infarction (I63-)"
+								},
+								"diag": [
+									{
+										"name": "R29.70",
+										"desc": "NIHSS score 0-9",
+										"diag": [
+											{
+												"name": "R29.700",
+												"desc": "NIHSS score 0"
+											},
+											{
+												"name": "R29.701",
+												"desc": "NIHSS score 1"
+											},
+											{
+												"name": "R29.702",
+												"desc": "NIHSS score 2"
+											},
+											{
+												"name": "R29.703",
+												"desc": "NIHSS score 3"
+											},
+											{
+												"name": "R29.704",
+												"desc": "NIHSS score 4"
+											},
+											{
+												"name": "R29.705",
+												"desc": "NIHSS score 5"
+											},
+											{
+												"name": "R29.706",
+												"desc": "NIHSS score 6"
+											},
+											{
+												"name": "R29.707",
+												"desc": "NIHSS score 7"
+											},
+											{
+												"name": "R29.708",
+												"desc": "NIHSS score 8"
+											},
+											{
+												"name": "R29.709",
+												"desc": "NIHSS score 9"
+											}
+										]
+									},
+									{
+										"name": "R29.71",
+										"desc": "NIHSS score 10-19",
+										"diag": [
+											{
+												"name": "R29.710",
+												"desc": "NIHSS score 10"
+											},
+											{
+												"name": "R29.711",
+												"desc": "NIHSS score 11"
+											},
+											{
+												"name": "R29.712",
+												"desc": "NIHSS score 12"
+											},
+											{
+												"name": "R29.713",
+												"desc": "NIHSS score 13"
+											},
+											{
+												"name": "R29.714",
+												"desc": "NIHSS score 14"
+											},
+											{
+												"name": "R29.715",
+												"desc": "NIHSS score 15"
+											},
+											{
+												"name": "R29.716",
+												"desc": "NIHSS score 16"
+											},
+											{
+												"name": "R29.717",
+												"desc": "NIHSS score 17"
+											},
+											{
+												"name": "R29.718",
+												"desc": "NIHSS score 18"
+											},
+											{
+												"name": "R29.719",
+												"desc": "NIHSS score 19"
+											}
+										]
+									},
+									{
+										"name": "R29.72",
+										"desc": "NIHSS score 20-29",
+										"diag": [
+											{
+												"name": "R29.720",
+												"desc": "NIHSS score 20"
+											},
+											{
+												"name": "R29.721",
+												"desc": "NIHSS score 21"
+											},
+											{
+												"name": "R29.722",
+												"desc": "NIHSS score 22"
+											},
+											{
+												"name": "R29.723",
+												"desc": "NIHSS score 23"
+											},
+											{
+												"name": "R29.724",
+												"desc": "NIHSS score 24"
+											},
+											{
+												"name": "R29.725",
+												"desc": "NIHSS score 25"
+											},
+											{
+												"name": "R29.726",
+												"desc": "NIHSS score 26"
+											},
+											{
+												"name": "R29.727",
+												"desc": "NIHSS score 27"
+											},
+											{
+												"name": "R29.728",
+												"desc": "NIHSS score 28"
+											},
+											{
+												"name": "R29.729",
+												"desc": "NIHSS score 29"
+											}
+										]
+									},
+									{
+										"name": "R29.73",
+										"desc": "NIHSS score 30-39",
+										"diag": [
+											{
+												"name": "R29.730",
+												"desc": "NIHSS score 30"
+											},
+											{
+												"name": "R29.731",
+												"desc": "NIHSS score 31"
+											},
+											{
+												"name": "R29.732",
+												"desc": "NIHSS score 32"
+											},
+											{
+												"name": "R29.733",
+												"desc": "NIHSS score 33"
+											},
+											{
+												"name": "R29.734",
+												"desc": "NIHSS score 34"
+											},
+											{
+												"name": "R29.735",
+												"desc": "NIHSS score 35"
+											},
+											{
+												"name": "R29.736",
+												"desc": "NIHSS score 36"
+											},
+											{
+												"name": "R29.737",
+												"desc": "NIHSS score 37"
+											},
+											{
+												"name": "R29.738",
+												"desc": "NIHSS score 38"
+											},
+											{
+												"name": "R29.739",
+												"desc": "NIHSS score 39"
+											}
+										]
+									},
+									{
+										"name": "R29.74",
+										"desc": "NIHSS score 40-42",
+										"diag": [
+											{
+												"name": "R29.740",
+												"desc": "NIHSS score 40"
+											},
+											{
+												"name": "R29.741",
+												"desc": "NIHSS score 41"
+											},
+											{
+												"name": "R29.742",
+												"desc": "NIHSS score 42"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "R29.8",
+								"desc": "Other symptoms and signs involving the nervous and musculoskeletal systems",
+								"diag": [
+									{
+										"name": "R29.81",
+										"desc": "Other symptoms and signs involving the nervous system",
+										"diag": [
+											{
+												"name": "R29.810",
+												"desc": "Facial weakness",
+												"inclusionTerm": {
+													"note": "Facial droop"
+												},
+												"excludes1": {
+													"note": [
+														"Bell's palsy (G51.0)",
+														"facial weakness following cerebrovascular disease (I69. with final characters -92)"
+													]
+												}
+											},
+											{
+												"name": "R29.818",
+												"desc": "Other symptoms and signs involving the nervous system"
+											}
+										]
+									},
+									{
+										"name": "R29.89",
+										"desc": "Other symptoms and signs involving the musculoskeletal system",
+										"excludes2": {
+											"note": "pain in limb (M79.6-)"
+										},
+										"diag": [
+											{
+												"name": "R29.890",
+												"desc": "Loss of height",
+												"excludes1": {
+													"note": "osteoporosis (M80-M81)"
+												}
+											},
+											{
+												"name": "R29.891",
+												"desc": "Ocular torticollis",
+												"excludes1": {
+													"note": [
+														"congenital (sternomastoid) torticollis Q68.0",
+														"psychogenic torticollis (F45.8)",
+														"spasmodic torticollis (G24.3)",
+														"torticollis due to birth injury (P15.8)",
+														"torticollis NOS M43.6"
+													]
+												}
+											},
+											{
+												"name": "R29.898",
+												"desc": "Other symptoms and signs involving the musculoskeletal system"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "R29.9",
+								"desc": "Unspecified symptoms and signs involving the nervous and musculoskeletal systems",
+								"diag": [
+									{
+										"name": "R29.90",
+										"desc": "Unspecified symptoms and signs involving the nervous system"
+									},
+									{
+										"name": "R29.91",
+										"desc": "Unspecified symptoms and signs involving the musculoskeletal system"
+									}
+								]
+							}
+						]
+					}
+				],
+				"_id": "R25-R29"
+			},
+			{
+				"desc": "Symptoms and signs involving the genitourinary system (R30-R39)",
+				"diag": [
+					{
+						"name": "R30",
+						"desc": "Pain associated with micturition",
+						"excludes1": {
+							"note": "psychogenic pain associated with micturition (F45.8)"
+						},
+						"diag": [
+							{
+								"name": "R30.0",
+								"desc": "Dysuria",
+								"inclusionTerm": {
+									"note": "Strangury"
+								}
+							},
+							{
+								"name": "R30.1",
+								"desc": "Vesical tenesmus"
+							},
+							{
+								"name": "R30.9",
+								"desc": "Painful micturition, unspecified",
+								"inclusionTerm": {
+									"note": "Painful urination NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R31",
+						"desc": "Hematuria",
+						"excludes1": {
+							"note": [
+								"hematuria included with underlying conditions, such as:",
+								"acute cystitis with hematuria (N30.01)",
+								"recurrent and persistent hematuria in glomerular diseases (N02.-)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R31.0",
+								"desc": "Gross hematuria"
+							},
+							{
+								"name": "R31.1",
+								"desc": "Benign essential microscopic hematuria"
+							},
+							{
+								"name": "R31.2",
+								"desc": "Other microscopic hematuria",
+								"diag": [
+									{
+										"name": "R31.21",
+										"desc": "Asymptomatic microscopic hematuria",
+										"inclusionTerm": {
+											"note": "AMH"
+										}
+									},
+									{
+										"name": "R31.29",
+										"desc": "Other microscopic hematuria"
+									}
+								]
+							},
+							{
+								"name": "R31.9",
+								"desc": "Hematuria, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R32",
+						"desc": "Unspecified urinary incontinence",
+						"inclusionTerm": {
+							"note": "Enuresis NOS"
+						},
+						"excludes1": {
+							"note": [
+								"functional urinary incontinence (R39.81)",
+								"nonorganic enuresis (F98.0)",
+								"stress incontinence and other specified urinary incontinence (N39.3-N39.4-)",
+								"urinary incontinence associated with cognitive impairment (R39.81)"
+							]
+						}
+					},
+					{
+						"name": "R33",
+						"desc": "Retention of urine",
+						"excludes1": {
+							"note": "psychogenic retention of urine (F45.8)"
+						},
+						"diag": [
+							{
+								"name": "R33.0",
+								"desc": "Drug induced retention of urine",
+								"useAdditionalCode": {
+									"note": "code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"
+								}
+							},
+							{
+								"name": "R33.8",
+								"desc": "Other retention of urine",
+								"codeFirst": {
+									"note": [
+										", if applicable, any causal condition, such as:",
+										"enlarged prostate (N40.1)"
+									]
+								}
+							},
+							{
+								"name": "R33.9",
+								"desc": "Retention of urine, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R34",
+						"desc": "Anuria and oliguria",
+						"excludes1": {
+							"note": [
+								"anuria and oliguria complicating abortion or ectopic or molar pregnancy (O00-O07, O08.4)",
+								"anuria and oliguria complicating pregnancy (O26.83-)",
+								"anuria and oliguria complicating the puerperium (O90.4)"
+							]
+						}
+					},
+					{
+						"name": "R35",
+						"desc": "Polyuria",
+						"codeFirst": {
+							"note": [
+								", if applicable, any causal condition, such as:",
+								"enlarged prostate (N40.1)"
+							]
+						},
+						"excludes1": {
+							"note": "psychogenic polyuria (F45.8)"
+						},
+						"diag": [
+							{
+								"name": "R35.0",
+								"desc": "Frequency of micturition"
+							},
+							{
+								"name": "R35.1",
+								"desc": "Nocturia"
+							},
+							{
+								"name": "R35.8",
+								"desc": "Other polyuria",
+								"inclusionTerm": {
+									"note": "Polyuria NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R36",
+						"desc": "Urethral discharge",
+						"diag": [
+							{
+								"name": "R36.0",
+								"desc": "Urethral discharge without blood"
+							},
+							{
+								"name": "R36.1",
+								"desc": "Hematospermia"
+							},
+							{
+								"name": "R36.9",
+								"desc": "Urethral discharge, unspecified",
+								"inclusionTerm": {
+									"note": [
+										"Penile discharge NOS",
+										"Urethrorrhea"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R37",
+						"desc": "Sexual dysfunction, unspecified"
+					},
+					{
+						"name": "R39",
+						"desc": "Other and unspecified symptoms and signs involving the genitourinary system",
+						"diag": [
+							{
+								"name": "R39.0",
+								"desc": "Extravasation of urine"
+							},
+							{
+								"name": "R39.1",
+								"desc": "Other difficulties with micturition",
+								"codeFirst": {
+									"note": [
+										", if applicable, any causal condition, such as:",
+										"enlarged prostate (N40.1)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R39.11",
+										"desc": "Hesitancy of micturition"
+									},
+									{
+										"name": "R39.12",
+										"desc": "Poor urinary stream",
+										"inclusionTerm": {
+											"note": "Weak urinary steam"
+										}
+									},
+									{
+										"name": "R39.13",
+										"desc": "Splitting of urinary stream"
+									},
+									{
+										"name": "R39.14",
+										"desc": "Feeling of incomplete bladder emptying"
+									},
+									{
+										"name": "R39.15",
+										"desc": "Urgency of urination",
+										"excludes1": {
+											"note": "urge incontinence (N39.41, N39.46)"
+										}
+									},
+									{
+										"name": "R39.16",
+										"desc": "Straining to void"
+									},
+									{
+										"name": "R39.19",
+										"desc": "Other difficulties with micturition",
+										"diag": [
+											{
+												"name": "R39.191",
+												"desc": "Need to immediately re-void"
+											},
+											{
+												"name": "R39.192",
+												"desc": "Position dependent micturition"
+											},
+											{
+												"name": "R39.198",
+												"desc": "Other difficulties with micturition"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "R39.2",
+								"desc": "Extrarenal uremia",
+								"inclusionTerm": {
+									"note": "Prerenal uremia"
+								},
+								"excludes1": {
+									"note": "uremia NOS (N19)"
+								}
+							},
+							{
+								"name": "R39.8",
+								"desc": "Other symptoms and signs involving the genitourinary system",
+								"diag": [
+									{
+										"name": "R39.81",
+										"desc": "Functional urinary incontinence",
+										"inclusionTerm": {
+											"note": "Urinary incontinence due to cognitive impairment, or severe physical disability or immobility"
+										},
+										"excludes1": {
+											"note": [
+												"stress incontinence and other specified urinary incontinence (N39.3-N39.4-)",
+												"urinary incontinence NOS (R32)"
+											]
+										}
+									},
+									{
+										"name": "R39.82",
+										"desc": "Chronic bladder pain"
+									},
+									{
+										"name": "R39.83",
+										"desc": "Unilateral non-palpable testicle"
+									},
+									{
+										"name": "R39.84",
+										"desc": "Bilateral non-palpable testicles"
+									},
+									{
+										"name": "R39.89",
+										"desc": "Other symptoms and signs involving the genitourinary system"
+									}
+								]
+							},
+							{
+								"name": "R39.9",
+								"desc": "Unspecified symptoms and signs involving the genitourinary system"
+							}
+						]
+					}
+				],
+				"_id": "R30-R39"
+			},
+			{
+				"desc": "Symptoms and signs involving cognition, perception, emotional state and behavior (R40-R46)",
+				"excludes2": {
+					"note": "symptoms and signs constituting part of a pattern of mental disorder (F01-F99)"
+				},
+				"diag": [
+					{
+						"name": "R40",
+						"desc": "Somnolence, stupor and coma",
+						"excludes1": {
+							"note": [
+								"neonatal coma (P91.5)",
+								"somnolence, stupor and coma in diabetes (E08-E13)",
+								"somnolence, stupor and coma in hepatic failure (K72.-)",
+								"somnolence, stupor and coma in hypoglycemia (nondiabetic) (E15)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R40.0",
+								"desc": "Somnolence",
+								"inclusionTerm": {
+									"note": "Drowsiness"
+								},
+								"excludes1": {
+									"note": "coma (R40.2-)"
+								}
+							},
+							{
+								"name": "R40.1",
+								"desc": "Stupor",
+								"inclusionTerm": {
+									"note": [
+										"Catatonic stupor",
+										"Semicoma"
+									]
+								},
+								"excludes1": {
+									"note": [
+										"catatonic schizophrenia (F20.2)",
+										"coma (R40.2-)",
+										"depressive stupor (F31-F33)",
+										"dissociative stupor (F44.2)",
+										"manic stupor (F30.2)"
+									]
+								}
+							},
+							{
+								"name": "R40.2",
+								"desc": "Coma",
+								"codeFirst": {
+									"note": [
+										"any associated:",
+										"fracture of skull (S02.-)",
+										"intracranial injury (S06.-)"
+									]
+								},
+								"notes": {
+									"note": "One code from each subcategory, R40.21-R40.23,  is required to complete the coma scale"
+								},
+								"diag": [
+									{
+										"name": "R40.20",
+										"desc": "Unspecified coma",
+										"inclusionTerm": {
+											"note": [
+												"Coma NOS",
+												"Unconsciousness NOS"
+											]
+										}
+									},
+									{
+										"name": "R40.21",
+										"desc": "Coma scale, eyes open",
+										"sevenChrNote": {
+											"note": "The following appropriate 7th character is to be added to subcategory R40.21-:"
+										},
+										"sevenChrDef": {
+											"extension": [
+												{
+													"_char": "0",
+													"__text": "unspecified time"
+												},
+												{
+													"_char": "1",
+													"__text": "in the field [EMT or ambulance]"
+												},
+												{
+													"_char": "2",
+													"__text": "at arrival to emergency department"
+												},
+												{
+													"_char": "3",
+													"__text": "at hospital admission"
+												},
+												{
+													"_char": "4",
+													"__text": "24 hours or more after hospital admission"
+												}
+											]
+										},
+										"diag": [
+											{
+												"name": "R40.211",
+												"desc": "Coma scale, eyes open, never"
+											},
+											{
+												"name": "R40.212",
+												"desc": "Coma scale, eyes open, to pain"
+											},
+											{
+												"name": "R40.213",
+												"desc": "Coma scale, eyes open, to sound"
+											},
+											{
+												"name": "R40.214",
+												"desc": "Coma scale, eyes open, spontaneous"
+											}
+										]
+									},
+									{
+										"name": "R40.22",
+										"desc": "Coma scale, best verbal response",
+										"sevenChrNote": {
+											"note": "The following appropriate 7th character is to be added to subcategory R40.22-:"
+										},
+										"sevenChrDef": {
+											"extension": [
+												{
+													"_char": "0",
+													"__text": "unspecified time"
+												},
+												{
+													"_char": "1",
+													"__text": "in the field [EMT or ambulance]"
+												},
+												{
+													"_char": "2",
+													"__text": "at arrival to emergency department"
+												},
+												{
+													"_char": "3",
+													"__text": "at hospital admission"
+												},
+												{
+													"_char": "4",
+													"__text": "24 hours or more after hospital admission"
+												}
+											]
+										},
+										"diag": [
+											{
+												"name": "R40.221",
+												"desc": "Coma scale, best verbal response, none"
+											},
+											{
+												"name": "R40.222",
+												"desc": "Coma scale, best verbal response, incomprehensible words",
+												"inclusionTerm": {
+													"note": [
+														"Incomprehensible sounds (2-5 years of age)",
+														"Moans/grunts to pain; restless (<2 years old)"
+													]
+												}
+											},
+											{
+												"name": "R40.223",
+												"desc": "Coma scale, best verbal response, inappropriate words",
+												"inclusionTerm": {
+													"note": [
+														"Inappropriate crying or screaming (< 2 years of age)",
+														"Screaming (2-5 years of age)"
+													]
+												}
+											},
+											{
+												"name": "R40.224",
+												"desc": "Coma scale, best verbal response, confused conversation",
+												"inclusionTerm": {
+													"note": [
+														"Inappropriate words (2-5 years of age)",
+														"Irritable cries (< 2 years of age)"
+													]
+												}
+											},
+											{
+												"name": "R40.225",
+												"desc": "Coma scale, best verbal response, oriented",
+												"inclusionTerm": {
+													"note": [
+														"Cooing or babbling or crying appropriately (< 2 years of age)",
+														"Uses appropriate words (2- 5 years of age)"
+													]
+												}
+											}
+										]
+									},
+									{
+										"name": "R40.23",
+										"desc": "Coma scale, best motor response",
+										"sevenChrNote": {
+											"note": "The following appropriate 7th character is to be added to subcategory R40.23-:"
+										},
+										"sevenChrDef": {
+											"extension": [
+												{
+													"_char": "0",
+													"__text": "unspecified time"
+												},
+												{
+													"_char": "1",
+													"__text": "in the field [EMT or ambulance]"
+												},
+												{
+													"_char": "2",
+													"__text": "at arrival to emergency department"
+												},
+												{
+													"_char": "3",
+													"__text": "at hospital admission"
+												},
+												{
+													"_char": "4",
+													"__text": "24 hours or more after hospital admission"
+												}
+											]
+										},
+										"diag": [
+											{
+												"name": "R40.231",
+												"desc": "Coma scale, best motor response, none"
+											},
+											{
+												"name": "R40.232",
+												"desc": "Coma scale, best motor response, extension",
+												"inclusionTerm": {
+													"note": [
+														"Abnormal extensor posturing to pain or noxious stimuli (< 2 years of age)",
+														"Extensor posturing to pain or noxious stimuli (2-5 years of age)"
+													]
+												}
+											},
+											{
+												"name": "R40.233",
+												"desc": "Coma scale, best motor response, abnormal",
+												"inclusionTerm": {
+													"note": [
+														"Abnormal flexure posturing to pain or noxious stimuli (0-5 years of age)",
+														"Flexion/decorticate posturing (< 2 years of age)"
+													]
+												}
+											},
+											{
+												"name": "R40.234",
+												"desc": "Coma scale, best motor response, flexion withdrawal",
+												"inclusionTerm": {
+													"note": "Withdraws from pain or noxious stimuli (0-5 years of  age)"
+												}
+											},
+											{
+												"name": "R40.235",
+												"desc": "Coma scale, best motor response, localizes pain",
+												"inclusionTerm": {
+													"note": [
+														"Localizes pain (2-5 years of age)",
+														"Withdraws to touch (< 2 years of age)"
+													]
+												}
+											},
+											{
+												"name": "R40.236",
+												"desc": "Coma scale, best motor response, obeys commands",
+												"inclusionTerm": {
+													"note": [
+														"Normal or spontaneous movement (< 2 years of age)",
+														"Obeys commands (2-5 years of age)"
+													]
+												}
+											}
+										]
+									},
+									{
+										"name": "R40.24",
+										"desc": "Glasgow coma scale, total score",
+										"notes": {
+											"note": "Assign a code from subcategory  R40.24, when only the total coma score is documented"
+										},
+										"sevenChrNote": {
+											"note": "The following appropriate 7th character is to be added to subcategory R40.24-:"
+										},
+										"sevenChrDef": {
+											"extension": [
+												{
+													"_char": "0",
+													"__text": "unspecified time"
+												},
+												{
+													"_char": "1",
+													"__text": "in the field [EMT or ambulance]"
+												},
+												{
+													"_char": "2",
+													"__text": "at arrival to emergency department"
+												},
+												{
+													"_char": "3",
+													"__text": "at hospital admission"
+												},
+												{
+													"_char": "4",
+													"__text": "24 hours or more after hospital admission"
+												}
+											]
+										},
+										"diag": [
+											{
+												"name": "R40.241",
+												"desc": "Glasgow coma scale score 13-15"
+											},
+											{
+												"name": "R40.242",
+												"desc": "Glasgow coma scale score 9-12"
+											},
+											{
+												"name": "R40.243",
+												"desc": "Glasgow coma scale score 3-8"
+											},
+											{
+												"name": "R40.244",
+												"desc": "Other coma, without documented Glasgow coma scale score, or with partial score reported"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "R40.3",
+								"desc": "Persistent vegetative state"
+							},
+							{
+								"name": "R40.4",
+								"desc": "Transient alteration of awareness"
+							}
+						]
+					},
+					{
+						"name": "R41",
+						"desc": "Other symptoms and signs involving cognitive functions and awareness",
+						"excludes1": {
+							"note": [
+								"dissociative [conversion] disorders (F44.-)",
+								"mild cognitive impairment, so stated (G31.84)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R41.0",
+								"desc": "Disorientation, unspecified",
+								"inclusionTerm": {
+									"note": [
+										"Confusion NOS",
+										"Delirium NOS"
+									]
+								}
+							},
+							{
+								"name": "R41.1",
+								"desc": "Anterograde amnesia"
+							},
+							{
+								"name": "R41.2",
+								"desc": "Retrograde amnesia"
+							},
+							{
+								"name": "R41.3",
+								"desc": "Other amnesia",
+								"inclusionTerm": {
+									"note": [
+										"Amnesia NOS",
+										"Memory loss NOS"
+									]
+								},
+								"excludes1": {
+									"note": [
+										"amnestic disorder due to known physiologic condition (F04)",
+										"amnestic syndrome due to psychoactive substance use (F10-F19 with 5th character .6)",
+										"mild memory disturbance due to known physiological condition (F06.8)",
+										"transient global amnesia (G45.4)"
+									]
+								}
+							},
+							{
+								"name": "R41.4",
+								"desc": "Neurologic neglect syndrome",
+								"inclusionTerm": {
+									"note": [
+										"Asomatognosia",
+										"Hemi-akinesia",
+										"Hemi-inattention",
+										"Hemispatial neglect",
+										"Left-sided neglect",
+										"Sensory neglect",
+										"Visuospatial neglect"
+									]
+								},
+								"excludes1": {
+									"note": "visuospatial deficit (R41.842)"
+								}
+							},
+							{
+								"name": "R41.8",
+								"desc": "Other symptoms and signs involving cognitive functions and awareness",
+								"diag": [
+									{
+										"name": "R41.81",
+										"desc": "Age-related cognitive decline",
+										"inclusionTerm": {
+											"note": "Senility NOS"
+										}
+									},
+									{
+										"name": "R41.82",
+										"desc": "Altered mental status, unspecified",
+										"inclusionTerm": {
+											"note": "Change in mental status NOS"
+										},
+										"excludes1": {
+											"note": [
+												"altered level of consciousness (R40.-)",
+												"altered mental status due to known condition - code to condition",
+												"delirium NOS (R41.0)"
+											]
+										}
+									},
+									{
+										"name": "R41.83",
+										"desc": "Borderline intellectual functioning",
+										"inclusionTerm": {
+											"note": "IQ level 71 to 84"
+										},
+										"excludes1": {
+											"note": "intellectual disabilities (F70-F79)"
+										}
+									},
+									{
+										"name": "R41.84",
+										"desc": "Other specified cognitive deficit",
+										"excludes1": {
+											"note": "cognitive deficits as sequelae of cerebrovascular    disease (I69.01-, I69.11-, I69.21-, I69.31-, I69.81-, I69.91-)"
+										},
+										"diag": [
+											{
+												"name": "R41.840",
+												"desc": "Attention and concentration deficit",
+												"excludes1": {
+													"note": "attention-deficit hyperactivity disorders (F90.-)"
+												}
+											},
+											{
+												"name": "R41.841",
+												"desc": "Cognitive communication deficit"
+											},
+											{
+												"name": "R41.842",
+												"desc": "Visuospatial deficit"
+											},
+											{
+												"name": "R41.843",
+												"desc": "Psychomotor deficit"
+											},
+											{
+												"name": "R41.844",
+												"desc": "Frontal lobe and executive function deficit"
+											}
+										]
+									},
+									{
+										"name": "R41.89",
+										"desc": "Other symptoms and signs involving cognitive functions and awareness",
+										"inclusionTerm": {
+											"note": "Anosognosia"
+										}
+									}
+								]
+							},
+							{
+								"name": "R41.9",
+								"desc": "Unspecified symptoms and signs involving cognitive functions and awareness",
+								"inclusionTerm": {
+									"note": "Unspecified neurocognitive disorder"
+								}
+							}
+						]
+					},
+					{
+						"name": "R42",
+						"desc": "Dizziness and giddiness",
+						"inclusionTerm": {
+							"note": [
+								"Light-headedness",
+								"Vertigo NOS"
+							]
+						},
+						"excludes1": {
+							"note": [
+								"vertiginous syndromes (H81.-)",
+								"vertigo from infrasound (T75.23)"
+							]
+						}
+					},
+					{
+						"name": "R43",
+						"desc": "Disturbances of smell and taste",
+						"diag": [
+							{
+								"name": "R43.0",
+								"desc": "Anosmia"
+							},
+							{
+								"name": "R43.1",
+								"desc": "Parosmia"
+							},
+							{
+								"name": "R43.2",
+								"desc": "Parageusia"
+							},
+							{
+								"name": "R43.8",
+								"desc": "Other disturbances of smell and taste",
+								"inclusionTerm": {
+									"note": "Mixed disturbance of smell and taste"
+								}
+							},
+							{
+								"name": "R43.9",
+								"desc": "Unspecified disturbances of smell and taste"
+							}
+						]
+					},
+					{
+						"name": "R44",
+						"desc": "Other symptoms and signs involving general sensations and perceptions",
+						"excludes1": {
+							"note": [
+								"alcoholic hallucinations (F1.5)",
+								"hallucinations in drug psychosis (F11-F19 with .5)",
+								"hallucinations in mood disorders with psychotic symptoms (F30.2, F31.5, F32.3, F33.3)",
+								"hallucinations in schizophrenia, schizotypal and delusional disorders (F20-F29)"
+							]
+						},
+						"excludes2": {
+							"note": "disturbances of skin sensation (R20.-)"
+						},
+						"diag": [
+							{
+								"name": "R44.0",
+								"desc": "Auditory hallucinations"
+							},
+							{
+								"name": "R44.1",
+								"desc": "Visual hallucinations"
+							},
+							{
+								"name": "R44.2",
+								"desc": "Other hallucinations"
+							},
+							{
+								"name": "R44.3",
+								"desc": "Hallucinations, unspecified"
+							},
+							{
+								"name": "R44.8",
+								"desc": "Other symptoms and signs involving general sensations and perceptions"
+							},
+							{
+								"name": "R44.9",
+								"desc": "Unspecified symptoms and signs involving general sensations and perceptions"
+							}
+						]
+					},
+					{
+						"name": "R45",
+						"desc": "Symptoms and signs involving emotional state",
+						"diag": [
+							{
+								"name": "R45.0",
+								"desc": "Nervousness",
+								"inclusionTerm": {
+									"note": "Nervous tension"
+								}
+							},
+							{
+								"name": "R45.1",
+								"desc": "Restlessness and agitation"
+							},
+							{
+								"name": "R45.2",
+								"desc": "Unhappiness"
+							},
+							{
+								"name": "R45.3",
+								"desc": "Demoralization and apathy",
+								"excludes1": {
+									"note": "anhedonia (R45.84)"
+								}
+							},
+							{
+								"name": "R45.4",
+								"desc": "Irritability and anger"
+							},
+							{
+								"name": "R45.5",
+								"desc": "Hostility"
+							},
+							{
+								"name": "R45.6",
+								"desc": "Violent behavior"
+							},
+							{
+								"name": "R45.7",
+								"desc": "State of emotional shock and stress, unspecified"
+							},
+							{
+								"name": "R45.8",
+								"desc": "Other symptoms and signs involving emotional state",
+								"diag": [
+									{
+										"name": "R45.81",
+										"desc": "Low self-esteem"
+									},
+									{
+										"name": "R45.82",
+										"desc": "Worries"
+									},
+									{
+										"name": "R45.83",
+										"desc": "Excessive crying of child, adolescent or adult",
+										"excludes1": {
+											"note": "excessive crying of infant (baby) R68.11"
+										}
+									},
+									{
+										"name": "R45.84",
+										"desc": "Anhedonia"
+									},
+									{
+										"name": "R45.85",
+										"desc": "Homicidal and suicidal ideations",
+										"excludes1": {
+											"note": "suicide attempt (T14.91)"
+										},
+										"diag": [
+											{
+												"name": "R45.850",
+												"desc": "Homicidal ideations"
+											},
+											{
+												"name": "R45.851",
+												"desc": "Suicidal ideations"
+											}
+										]
+									},
+									{
+										"name": "R45.86",
+										"desc": "Emotional lability"
+									},
+									{
+										"name": "R45.87",
+										"desc": "Impulsiveness"
+									},
+									{
+										"name": "R45.89",
+										"desc": "Other symptoms and signs involving emotional state"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "R46",
+						"desc": "Symptoms and signs involving appearance and behavior",
+						"excludes1": {
+							"note": [
+								"appearance and behavior in schizophrenia, schizotypal and delusional disorders (F20-F29)",
+								"mental and behavioral disorders (F01-F99)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R46.0",
+								"desc": "Very low level of personal hygiene"
+							},
+							{
+								"name": "R46.1",
+								"desc": "Bizarre personal appearance"
+							},
+							{
+								"name": "R46.2",
+								"desc": "Strange and inexplicable behavior"
+							},
+							{
+								"name": "R46.3",
+								"desc": "Overactivity"
+							},
+							{
+								"name": "R46.4",
+								"desc": "Slowness and poor responsiveness",
+								"excludes1": {
+									"note": "stupor (R40.1)"
+								}
+							},
+							{
+								"name": "R46.5",
+								"desc": "Suspiciousness and marked evasiveness"
+							},
+							{
+								"name": "R46.6",
+								"desc": "Undue concern and preoccupation with stressful events"
+							},
+							{
+								"name": "R46.7",
+								"desc": "Verbosity and circumstantial detail obscuring reason for contact"
+							},
+							{
+								"name": "R46.8",
+								"desc": "Other symptoms and signs involving appearance and behavior",
+								"diag": [
+									{
+										"name": "R46.81",
+										"desc": "Obsessive-compulsive behavior",
+										"excludes1": {
+											"note": "obsessive-compulsive disorder (F42-)"
+										}
+									},
+									{
+										"name": "R46.89",
+										"desc": "Other symptoms and signs involving appearance and behavior"
+									}
+								]
+							}
+						]
+					}
+				],
+				"_id": "R40-R46"
+			},
+			{
+				"desc": "Symptoms and signs involving speech and voice (R47-R49)",
+				"diag": [
+					{
+						"name": "R47",
+						"desc": "Speech disturbances, not elsewhere classified",
+						"excludes1": {
+							"note": [
+								"autism (F84.0)",
+								"cluttering (F80.81)",
+								"specific developmental disorders of speech and language (F80.-)",
+								"stuttering (F80.81)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R47.0",
+								"desc": "Dysphasia and aphasia",
+								"diag": [
+									{
+										"name": "R47.01",
+										"desc": "Aphasia",
+										"excludes1": {
+											"note": [
+												"aphasia following cerebrovascular disease (I69. with final characters -20)",
+												"progressive isolated aphasia (G31.01)"
+											]
+										}
+									},
+									{
+										"name": "R47.02",
+										"desc": "Dysphasia",
+										"excludes1": {
+											"note": "dysphasia following cerebrovascular disease (I69. with final characters -21)"
+										}
+									}
+								]
+							},
+							{
+								"name": "R47.1",
+								"desc": "Dysarthria and anarthria",
+								"excludes1": {
+									"note": "dysarthria following cerebrovascular disease (I69. with final characters -22)"
+								}
+							},
+							{
+								"name": "R47.8",
+								"desc": "Other speech disturbances",
+								"excludes1": {
+									"note": "dysarthria following cerebrovascular disease (I69. with final characters -28)"
+								},
+								"diag": [
+									{
+										"name": "R47.81",
+										"desc": "Slurred speech"
+									},
+									{
+										"name": "R47.82",
+										"desc": "Fluency disorder in conditions classified elsewhere",
+										"inclusionTerm": {
+											"note": "Stuttering in conditions classified elsewhere"
+										},
+										"codeFirst": {
+											"note": [
+												"underlying disease or condition, such as:",
+												"Parkinson's disease (G20)"
+											]
+										},
+										"excludes1": {
+											"note": [
+												"adult onset fluency disorder (F98.5)",
+												"childhood onset fluency disorder (F80.81)",
+												"fluency disorder (stuttering) following cerebrovascular disease (I69. with final characters -23)"
+											]
+										}
+									},
+									{
+										"name": "R47.89",
+										"desc": "Other speech disturbances"
+									}
+								]
+							},
+							{
+								"name": "R47.9",
+								"desc": "Unspecified speech disturbances"
+							}
+						]
+					},
+					{
+						"name": "R48",
+						"desc": "Dyslexia and other symbolic dysfunctions, not elsewhere classified",
+						"excludes1": {
+							"note": "specific developmental disorders of scholastic skills (F81.-)"
+						},
+						"diag": [
+							{
+								"name": "R48.0",
+								"desc": "Dyslexia and alexia"
+							},
+							{
+								"name": "R48.1",
+								"desc": "Agnosia",
+								"inclusionTerm": {
+									"note": [
+										"Astereognosia (astereognosis)",
+										"Autotopagnosia"
+									]
+								},
+								"excludes1": {
+									"note": "visual object agnosia (R48.3)"
+								}
+							},
+							{
+								"name": "R48.2",
+								"desc": "Apraxia",
+								"excludes1": {
+									"note": "apraxia following cerebrovascular disease (I69. with final characters -90)"
+								}
+							},
+							{
+								"name": "R48.3",
+								"desc": "Visual agnosia",
+								"inclusionTerm": {
+									"note": [
+										"Prosopagnosia",
+										"Simultanagnosia (asimultagnosia)"
+									]
+								}
+							},
+							{
+								"name": "R48.8",
+								"desc": "Other symbolic dysfunctions",
+								"inclusionTerm": {
+									"note": [
+										"Acalculia",
+										"Agraphia"
+									]
+								}
+							},
+							{
+								"name": "R48.9",
+								"desc": "Unspecified symbolic dysfunctions"
+							}
+						]
+					},
+					{
+						"name": "R49",
+						"desc": "Voice and resonance disorders",
+						"excludes1": {
+							"note": "psychogenic voice and resonance disorders (F44.4)"
+						},
+						"diag": [
+							{
+								"name": "R49.0",
+								"desc": "Dysphonia",
+								"inclusionTerm": {
+									"note": "Hoarseness"
+								}
+							},
+							{
+								"name": "R49.1",
+								"desc": "Aphonia",
+								"inclusionTerm": {
+									"note": "Loss of voice"
+								}
+							},
+							{
+								"name": "R49.2",
+								"desc": "Hypernasality and hyponasality",
+								"diag": [
+									{
+										"name": "R49.21",
+										"desc": "Hypernasality"
+									},
+									{
+										"name": "R49.22",
+										"desc": "Hyponasality"
+									}
+								]
+							},
+							{
+								"name": "R49.8",
+								"desc": "Other voice and resonance disorders"
+							},
+							{
+								"name": "R49.9",
+								"desc": "Unspecified voice and resonance disorder",
+								"inclusionTerm": {
+									"note": [
+										"Change in voice NOS",
+										"Resonance disorder NOS"
+									]
+								}
+							}
+						]
+					}
+				],
+				"_id": "R47-R49"
+			},
+			{
+				"desc": "General symptoms and signs (R50-R69)",
+				"diag": [
+					{
+						"name": "R50",
+						"desc": "Fever of other and unknown origin",
+						"excludes1": {
+							"note": [
+								"chills without fever (R68.83)",
+								"febrile convulsions (R56.0-)",
+								"fever of unknown origin during labor (O75.2)",
+								"fever of unknown origin in newborn (P81.9)",
+								"hypothermia due to illness (R68.0)",
+								"malignant hyperthermia due to anesthesia (T88.3)",
+								"puerperal pyrexia NOS (O86.4)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R50.2",
+								"desc": "Drug induced fever",
+								"useAdditionalCode": {
+									"note": "code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"
+								},
+								"excludes1": {
+									"note": "postvaccination (postimmunization) fever (R50.83)"
+								}
+							},
+							{
+								"name": "R50.8",
+								"desc": "Other specified fever",
+								"diag": [
+									{
+										"name": "R50.81",
+										"desc": "Fever presenting with conditions classified elsewhere",
+										"codeFirst": {
+											"note": [
+												"underlying condition when associated fever is present, such as with:",
+												"leukemia (C91-C95)",
+												"neutropenia (D70.-)",
+												"sickle-cell disease (D57.-)"
+											]
+										}
+									},
+									{
+										"name": "R50.82",
+										"desc": "Postprocedural fever",
+										"excludes1": {
+											"note": [
+												"postprocedural infection (T81.4-)",
+												"posttransfusion fever (R50.84)",
+												"postvaccination (postimmunization) fever (R50.83)"
+											]
+										}
+									},
+									{
+										"name": "R50.83",
+										"desc": "Postvaccination fever",
+										"inclusionTerm": {
+											"note": "Postimmunization fever"
+										}
+									},
+									{
+										"name": "R50.84",
+										"desc": "Febrile nonhemolytic transfusion reaction",
+										"inclusionTerm": {
+											"note": [
+												"FNHTR",
+												"Posttransfusion fever"
+											]
+										}
+									}
+								]
+							},
+							{
+								"name": "R50.9",
+								"desc": "Fever, unspecified",
+								"inclusionTerm": {
+									"note": [
+										"Fever NOS",
+										"Fever of unknown origin [FUO]",
+										"Fever with chills",
+										"Fever with rigors",
+										"Hyperpyrexia NOS",
+										"Persistent fever",
+										"Pyrexia NOS"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R51",
+						"desc": "Headache",
+						"inclusionTerm": {
+							"note": "Facial pain NOS"
+						},
+						"excludes1": {
+							"note": [
+								"atypical face pain (G50.1)",
+								"migraine and other headache syndromes (G43-G44)",
+								"trigeminal neuralgia (G50.0)"
+							]
+						}
+					},
+					{
+						"name": "R52",
+						"desc": "Pain, unspecified",
+						"inclusionTerm": {
+							"note": [
+								"Acute pain NOS",
+								"Generalized pain NOS",
+								"Pain NOS"
+							]
+						},
+						"excludes1": {
+							"note": [
+								"acute and chronic pain, not elsewhere classified (G89.-)",
+								"localized pain, unspecified type - code to pain by site, such as:",
+								"abdomen pain (R10.-)",
+								"back pain (M54.9)",
+								"breast pain (N64.4)",
+								"chest pain (R07.1-R07.9)",
+								"ear pain (H92.0-)",
+								"eye pain (H57.1)",
+								"headache (R51)",
+								"joint pain (M25.5-)",
+								"limb pain (M79.6-)",
+								"lumbar region pain (M54.5)",
+								"pelvic and perineal pain (R10.2)",
+								"shoulder pain (M25.51-)",
+								"spine pain (M54.-)",
+								"throat pain (R07.0)",
+								"tongue pain (K14.6)",
+								"tooth pain (K08.8)",
+								"renal colic (N23)",
+								"pain disorders exclusively related to psychological factors (F45.41)"
+							]
+						}
+					},
+					{
+						"name": "R53",
+						"desc": "Malaise and fatigue",
+						"diag": [
+							{
+								"name": "R53.0",
+								"desc": "Neoplastic (malignant) related fatigue",
+								"codeFirst": {
+									"note": "associated neoplasm"
+								}
+							},
+							{
+								"name": "R53.1",
+								"desc": "Weakness",
+								"inclusionTerm": {
+									"note": "Asthenia NOS"
+								},
+								"excludes1": {
+									"note": [
+										"age-related weakness (R54)",
+										"muscle weakness (M62.8-)",
+										"sarcopenia (M62.84)",
+										"senile asthenia (R54)"
+									]
+								}
+							},
+							{
+								"name": "R53.2",
+								"desc": "Functional quadriplegia",
+								"inclusionTerm": {
+									"note": "Complete immobility due to severe physical disability or frailty"
+								},
+								"excludes1": {
+									"note": [
+										"frailty NOS (R54)",
+										"hysterical paralysis (F44.4)",
+										"immobility syndrome (M62.3)",
+										"neurologic quadriplegia (G82.5-)",
+										"quadriplegia (G82.50)"
+									]
+								}
+							},
+							{
+								"name": "R53.8",
+								"desc": "Other malaise and fatigue",
+								"excludes1": {
+									"note": [
+										"combat exhaustion and fatigue (F43.0)",
+										"congenital debility (P96.9)",
+										"exhaustion and fatigue due to excessive exertion (T73.3)",
+										"exhaustion and fatigue due to exposure (T73.2)",
+										"exhaustion and fatigue due to heat (T67.-)",
+										"exhaustion and fatigue due to pregnancy (O26.8-)",
+										"exhaustion and fatigue due to recurrent depressive episode (F33)",
+										"exhaustion and fatigue due to senile debility (R54)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R53.81",
+										"desc": "Other malaise",
+										"inclusionTerm": {
+											"note": [
+												"Chronic debility",
+												"Debility NOS",
+												"General physical deterioration",
+												"Malaise NOS",
+												"Nervous debility"
+											]
+										},
+										"excludes1": {
+											"note": "age-related physical debility (R54)"
+										}
+									},
+									{
+										"name": "R53.82",
+										"desc": "Chronic fatigue, unspecified",
+										"inclusionTerm": {
+											"note": "Chronic fatigue syndrome NOS"
+										},
+										"excludes1": {
+											"note": "postviral fatigue syndrome (G93.3)"
+										}
+									},
+									{
+										"name": "R53.83",
+										"desc": "Other fatigue",
+										"inclusionTerm": {
+											"note": [
+												"Fatigue NOS",
+												"Lack of energy",
+												"Lethargy",
+												"Tiredness"
+											]
+										},
+										"excludes2": {
+											"note": "exhaustion and fatigue due to depressive episode (F32.-)"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "R54",
+						"desc": "Age-related physical debility",
+						"inclusionTerm": {
+							"note": [
+								"Frailty",
+								"Old age",
+								"Senescence",
+								"Senile asthenia",
+								"Senile debility"
+							]
+						},
+						"excludes1": {
+							"note": [
+								"age-related cognitive decline (R41.81)",
+								"sarcopenia (M62.84)",
+								"senile psychosis (F03)",
+								"senility NOS (R41.81)"
+							]
+						}
+					},
+					{
+						"name": "R55",
+						"desc": "Syncope and collapse",
+						"inclusionTerm": {
+							"note": [
+								"Blackout",
+								"Fainting",
+								"Vasovagal attack"
+							]
+						},
+						"excludes1": {
+							"note": [
+								"cardiogenic shock (R57.0)",
+								"carotid sinus syncope (G90.01)",
+								"heat syncope (T67.1)",
+								"neurocirculatory asthenia (F45.8)",
+								"neurogenic orthostatic hypotension (G90.3)",
+								"orthostatic hypotension (I95.1)",
+								"postprocedural shock (T81.1-)",
+								"psychogenic syncope (F48.8)",
+								"shock NOS (R57.9)",
+								"shock complicating or following abortion or ectopic or molar pregnancy (O00-O07, O08.3)",
+								"shock complicating or following labor and delivery (O75.1)",
+								"Stokes-Adams attack (I45.9)",
+								"unconsciousness NOS (R40.2-)"
+							]
+						}
+					},
+					{
+						"name": "R56",
+						"desc": "Convulsions, not elsewhere classified",
+						"excludes1": {
+							"note": [
+								"dissociative convulsions and seizures (F44.5)",
+								"epileptic convulsions and seizures (G40.-)",
+								"newborn convulsions and seizures (P90)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R56.0",
+								"desc": "Febrile convulsions",
+								"diag": [
+									{
+										"name": "R56.00",
+										"desc": "Simple febrile convulsions",
+										"inclusionTerm": {
+											"note": [
+												"Febrile convulsion NOS",
+												"Febrile seizure NOS"
+											]
+										}
+									},
+									{
+										"name": "R56.01",
+										"desc": "Complex febrile convulsions",
+										"inclusionTerm": {
+											"note": [
+												"Atypical febrile seizure",
+												"Complex febrile seizure",
+												"Complicated febrile seizure"
+											]
+										},
+										"excludes1": {
+											"note": "status epilepticus (G40.901)"
+										}
+									}
+								]
+							},
+							{
+								"name": "R56.1",
+								"desc": "Post traumatic seizures",
+								"excludes1": {
+									"note": "post traumatic epilepsy (G40.-)"
+								}
+							},
+							{
+								"name": "R56.9",
+								"desc": "Unspecified convulsions",
+								"inclusionTerm": {
+									"note": [
+										"Convulsion disorder",
+										"Fit NOS",
+										"Recurrent convulsions",
+										"Seizure(s) (convulsive) NOS"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R57",
+						"desc": "Shock, not elsewhere classified",
+						"excludes1": {
+							"note": [
+								"anaphylactic shock NOS (T78.2)",
+								"anaphylactic reaction or shock due to adverse food reaction (T78.0-)",
+								"anaphylactic shock due to adverse effect of correct drug or medicament properly administered (T88.6)",
+								"anaphylactic shock due to serum (T80.5-)",
+								"anesthetic shock (T88.3)",
+								"electric shock (T75.4)",
+								"obstetric shock (O75.1)",
+								"postprocedural shock (T81.1-)",
+								"psychic shock (F43.0)",
+								"shock complicating or following ectopic or molar pregnancy (O00-O07, O08.3)",
+								"shock due to lightning (T75.01)",
+								"traumatic shock (T79.4)",
+								"toxic shock syndrome (A48.3)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R57.0",
+								"desc": "Cardiogenic shock",
+								"excludes2": {
+									"note": "septic shock (R65.21)"
+								}
+							},
+							{
+								"name": "R57.1",
+								"desc": "Hypovolemic shock"
+							},
+							{
+								"name": "R57.8",
+								"desc": "Other shock"
+							},
+							{
+								"name": "R57.9",
+								"desc": "Shock, unspecified",
+								"inclusionTerm": {
+									"note": "Failure of peripheral circulation NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R58",
+						"desc": "Hemorrhage, not elsewhere classified",
+						"inclusionTerm": {
+							"note": "Hemorrhage NOS"
+						},
+						"excludes1": {
+							"note": [
+								"hemorrhage included with underlying conditions, such as:",
+								"acute duodenal ulcer with hemorrhage (K26.0)",
+								"acute gastritis with bleeding (K29.01)",
+								"ulcerative enterocolitis with rectal bleeding (K51.01)"
+							]
+						}
+					},
+					{
+						"name": "R59",
+						"desc": "Enlarged lymph nodes",
+						"includes": {
+							"note": "swollen glands"
+						},
+						"excludes1": {
+							"note": [
+								"lymphadenitis NOS (I88.9)",
+								"acute lymphadenitis (L04.-)",
+								"chronic lymphadenitis (I88.1)",
+								"mesenteric (acute) (chronic) lymphadenitis (I88.0)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R59.0",
+								"desc": "Localized enlarged lymph nodes"
+							},
+							{
+								"name": "R59.1",
+								"desc": "Generalized enlarged lymph nodes",
+								"inclusionTerm": {
+									"note": "Lymphadenopathy NOS"
+								}
+							},
+							{
+								"name": "R59.9",
+								"desc": "Enlarged lymph nodes, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R60",
+						"desc": "Edema, not elsewhere classified",
+						"excludes1": {
+							"note": [
+								"angioneurotic edema (T78.3)",
+								"ascites (R18.-)",
+								"cerebral edema (G93.6)",
+								"cerebral edema due to birth injury (P11.0)",
+								"edema of larynx (J38.4)",
+								"edema of nasopharynx (J39.2)",
+								"edema of pharynx (J39.2)",
+								"gestational edema (O12.0-)",
+								"hereditary edema (Q82.0)",
+								"hydrops fetalis NOS (P83.2)",
+								"hydrothorax (J94.8)",
+								"hydrops fetalis NOS (P83.2)",
+								"newborn edema (P83.3)",
+								"pulmonary edema (J81.-)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R60.0",
+								"desc": "Localized edema"
+							},
+							{
+								"name": "R60.1",
+								"desc": "Generalized edema",
+								"excludes2": {
+									"note": "nutritional edema (E40-E46)"
+								}
+							},
+							{
+								"name": "R60.9",
+								"desc": "Edema, unspecified",
+								"inclusionTerm": {
+									"note": "Fluid retention NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R61",
+						"desc": "Generalized hyperhidrosis",
+						"inclusionTerm": {
+							"note": [
+								"Excessive sweating",
+								"Night sweats",
+								"Secondary hyperhidrosis"
+							]
+						},
+						"codeFirst": {
+							"note": ", if applicable, menopausal and female climacteric states (N95.1)"
+						},
+						"excludes1": {
+							"note": [
+								"focal (primary) (secondary) hyperhidrosis (L74.5-)",
+								"Frey's syndrome (L74.52)",
+								"localized (primary) (secondary) hyperhidrosis (L74.5-)"
+							]
+						}
+					},
+					{
+						"name": "R62",
+						"desc": "Lack of expected normal physiological development in childhood and adults",
+						"excludes1": {
+							"note": [
+								"delayed puberty (E30.0)",
+								"gonadal dysgenesis (Q99.1)",
+								"hypopituitarism (E23.0)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R62.0",
+								"desc": "Delayed milestone in childhood",
+								"inclusionTerm": {
+									"note": [
+										"Delayed attainment of expected physiological developmental stage",
+										"Late talker",
+										"Late walker"
+									]
+								}
+							},
+							{
+								"name": "R62.5",
+								"desc": "Other and unspecified lack of expected normal physiological development in childhood",
+								"excludes1": {
+									"note": [
+										"HIV disease resulting in failure to thrive (B20)",
+										"physical retardation due to malnutrition (E45)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R62.50",
+										"desc": "Unspecified lack of expected normal physiological development in childhood",
+										"inclusionTerm": {
+											"note": "Infantilism NOS"
+										}
+									},
+									{
+										"name": "R62.51",
+										"desc": "Failure to thrive (child)",
+										"inclusionTerm": {
+											"note": "Failure to gain weight"
+										},
+										"excludes1": {
+											"note": "failure to thrive in child under 28 days old (P92.6)"
+										}
+									},
+									{
+										"name": "R62.52",
+										"desc": "Short stature (child)",
+										"inclusionTerm": {
+											"note": [
+												"Lack of growth",
+												"Physical retardation",
+												"Short stature NOS"
+											]
+										},
+										"excludes1": {
+											"note": "short stature due to endocrine disorder (E34.3)"
+										}
+									},
+									{
+										"name": "R62.59",
+										"desc": "Other lack of expected normal physiological development in childhood"
+									}
+								]
+							},
+							{
+								"name": "R62.7",
+								"desc": "Adult failure to thrive"
+							}
+						]
+					},
+					{
+						"name": "R63",
+						"desc": "Symptoms and signs concerning food and fluid intake",
+						"excludes1": {
+							"note": [
+								"bulimia NOS (F50.2)",
+								"eating disorders of nonorganic origin (F50.-)",
+								"malnutrition (E40-E46)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R63.0",
+								"desc": "Anorexia",
+								"inclusionTerm": {
+									"note": "Loss of appetite"
+								},
+								"excludes1": {
+									"note": [
+										"anorexia nervosa (F50.0-)",
+										"loss of appetite of nonorganic origin (F50.89)"
+									]
+								}
+							},
+							{
+								"name": "R63.1",
+								"desc": "Polydipsia",
+								"inclusionTerm": {
+									"note": "Excessive thirst"
+								}
+							},
+							{
+								"name": "R63.2",
+								"desc": "Polyphagia",
+								"inclusionTerm": {
+									"note": [
+										"Excessive eating",
+										"Hyperalimentation NOS"
+									]
+								}
+							},
+							{
+								"name": "R63.3",
+								"desc": "Feeding difficulties",
+								"inclusionTerm": {
+									"note": [
+										"Feeding problem (elderly) (infant) NOS",
+										"Picky eater"
+									]
+								},
+								"excludes1": {
+									"note": [
+										"eating disorders (F50.-)",
+										"feeding problems of newborn (P92.-)",
+										"infant feeding disorder of nonorganic origin (F98.2-)"
+									]
+								}
+							},
+							{
+								"name": "R63.4",
+								"desc": "Abnormal weight loss"
+							},
+							{
+								"name": "R63.5",
+								"desc": "Abnormal weight gain",
+								"excludes1": {
+									"note": [
+										"excessive weight gain in pregnancy (O26.0-)",
+										"obesity (E66.-)"
+									]
+								}
+							},
+							{
+								"name": "R63.6",
+								"desc": "Underweight",
+								"useAdditionalCode": {
+									"note": "code to identify body mass index (BMI), if known (Z68.-)"
+								},
+								"excludes1": {
+									"note": [
+										"abnormal weight loss (R63.4)",
+										"anorexia nervosa (F50.0-)",
+										"malnutrition (E40-E46)"
+									]
+								}
+							},
+							{
+								"name": "R63.8",
+								"desc": "Other symptoms and signs concerning food and fluid intake"
+							}
+						]
+					},
+					{
+						"name": "R64",
+						"desc": "Cachexia",
+						"inclusionTerm": {
+							"note": "Wasting syndrome"
+						},
+						"codeFirst": {
+							"note": "underlying condition, if known"
+						},
+						"excludes1": {
+							"note": [
+								"abnormal weight loss (R63.4)",
+								"nutritional marasmus (E41)"
+							]
+						}
+					},
+					{
+						"name": "R65",
+						"desc": "Symptoms and signs specifically associated with systemic inflammation and infection",
+						"diag": [
+							{
+								"name": "R65.1",
+								"desc": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin",
+								"codeFirst": {
+									"note": [
+										"underlying condition, such as:",
+										"heatstroke (T67.0)",
+										"injury and trauma (S00-T88)"
+									]
+								},
+								"excludes1": {
+									"note": [
+										"sepsis- code to infection",
+										"severe sepsis (R65.2)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R65.10",
+										"desc": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin without acute organ dysfunction",
+										"inclusionTerm": {
+											"note": "Systemic inflammatory response syndrome (SIRS) NOS"
+										}
+									},
+									{
+										"name": "R65.11",
+										"desc": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin with acute organ dysfunction",
+										"useAdditionalCode": {
+											"note": [
+												"code to identify specific acute organ dysfunction, such as:",
+												"acute kidney failure (N17.-)",
+												"acute respiratory failure (J96.0-)",
+												"critical illness myopathy (G72.81)",
+												"critical illness polyneuropathy (G62.81)",
+												"disseminated intravascular coagulopathy [DIC] (D65)",
+												"encephalopathy (metabolic) (septic) (G93.41)",
+												"hepatic failure (K72.0-)"
+											]
+										}
+									}
+								]
+							},
+							{
+								"name": "R65.2",
+								"desc": "Severe sepsis",
+								"inclusionTerm": {
+									"note": [
+										"Infection with associated acute organ dysfunction",
+										"Sepsis with acute organ dysfunction",
+										"Sepsis with multiple organ dysfunction",
+										"Systemic inflammatory response syndrome due to infectious process with acute organ dysfunction"
+									]
+								},
+								"codeFirst": {
+									"note": [
+										"underlying infection, such as:",
+										"infection following a procedure (T81.4-)",
+										"infections following infusion, transfusion and therapeutic injection (T80.2-)",
+										"puerperal sepsis (O85)",
+										"sepsis following complete or unspecified spontaneous abortion (O03.87)",
+										"sepsis following ectopic and molar pregnancy (O08.82)",
+										"sepsis following incomplete spontaneous abortion (O03.37)",
+										"sepsis following (induced) termination of pregnancy (O04.87)",
+										"sepsis NOS (A41.9)"
+									]
+								},
+								"useAdditionalCode": {
+									"note": [
+										"code to identify specific acute organ dysfunction, such as:",
+										"acute kidney failure (N17.-)",
+										"acute respiratory failure (J96.0-)",
+										"critical illness myopathy (G72.81)",
+										"critical illness polyneuropathy (G62.81)",
+										"disseminated intravascular coagulopathy [DIC] (D65)",
+										"encephalopathy (metabolic) (septic) (G93.41)",
+										"hepatic failure (K72.0-)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R65.20",
+										"desc": "Severe sepsis without septic shock",
+										"inclusionTerm": {
+											"note": "Severe sepsis NOS"
+										}
+									},
+									{
+										"name": "R65.21",
+										"desc": "Severe sepsis with septic shock"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "R68",
+						"desc": "Other general symptoms and signs",
+						"diag": [
+							{
+								"name": "R68.0",
+								"desc": "Hypothermia, not associated with low environmental temperature",
+								"excludes1": {
+									"note": [
+										"hypothermia NOS (accidental) (T68)",
+										"hypothermia due to anesthesia (T88.51)",
+										"hypothermia due to low environmental temperature (T68)",
+										"newborn hypothermia (P80.-)"
+									]
+								}
+							},
+							{
+								"name": "R68.1",
+								"desc": "Nonspecific symptoms peculiar to infancy",
+								"excludes1": {
+									"note": [
+										"colic, infantile (R10.83)",
+										"neonatal cerebral irritability (P91.3)",
+										"teething syndrome (K00.7)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R68.11",
+										"desc": "Excessive crying of infant (baby)",
+										"excludes1": {
+											"note": "excessive crying of child, adolescent, or adult (R45.83)"
+										}
+									},
+									{
+										"name": "R68.12",
+										"desc": "Fussy infant (baby)",
+										"inclusionTerm": {
+											"note": "Irritable infant"
+										}
+									},
+									{
+										"name": "R68.13",
+										"desc": "Apparent life threatening event in infant (ALTE)",
+										"inclusionTerm": {
+											"note": [
+												"Apparent life threatening event in newborn",
+												"Brief resolved unexplained event (BRUE)"
+											]
+										},
+										"codeFirst": {
+											"note": "confirmed diagnosis, if known"
+										},
+										"useAdditionalCode": {
+											"note": "code(s) for associated signs and symptoms if no confirmed diagnosis established, or if signs and symptoms are not associated routinely with confirmed diagnosis, or provide additional information for cause of ALTE"
+										}
+									},
+									{
+										"name": "R68.19",
+										"desc": "Other nonspecific symptoms peculiar to infancy"
+									}
+								]
+							},
+							{
+								"name": "R68.2",
+								"desc": "Dry mouth, unspecified",
+								"excludes1": {
+									"note": [
+										"dry mouth due to dehydration (E86.0)",
+										"dry mouth due to sicca syndrome [Sjögren] (M35.0-)",
+										"salivary gland hyposecretion (K11.7)"
+									]
+								}
+							},
+							{
+								"name": "R68.3",
+								"desc": "Clubbing of fingers",
+								"inclusionTerm": {
+									"note": "Clubbing of nails"
+								},
+								"excludes1": {
+									"note": "congenital clubfinger (Q68.1)"
+								}
+							},
+							{
+								"name": "R68.8",
+								"desc": "Other general symptoms and signs",
+								"diag": [
+									{
+										"name": "R68.81",
+										"desc": "Early satiety"
+									},
+									{
+										"name": "R68.82",
+										"desc": "Decreased libido",
+										"inclusionTerm": {
+											"note": "Decreased sexual desire"
+										}
+									},
+									{
+										"name": "R68.83",
+										"desc": "Chills (without fever)",
+										"inclusionTerm": {
+											"note": "Chills NOS"
+										},
+										"excludes1": {
+											"note": "chills with fever (R50.9)"
+										}
+									},
+									{
+										"name": "R68.84",
+										"desc": "Jaw pain",
+										"inclusionTerm": {
+											"note": [
+												"Mandibular pain",
+												"Maxilla pain"
+											]
+										},
+										"excludes1": {
+											"note": "temporomandibular joint arthralgia (M26.62-)"
+										}
+									},
+									{
+										"name": "R68.89",
+										"desc": "Other general symptoms and signs"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "R69",
+						"desc": "Illness, unspecified",
+						"inclusionTerm": {
+							"note": "Unknown and unspecified cases of morbidity"
+						}
+					}
+				],
+				"_id": "R50-R69"
+			},
+			{
+				"desc": "Abnormal findings on examination of blood, without diagnosis (R70-R79)",
+				"excludes2": {
+					"note": [
+						"abnormal findings on antenatal screening of mother (O28.-)",
+						"abnormalities of lipids (E78.-)",
+						"abnormalities of platelets and thrombocytes (D69.-)",
+						"abnormalities of white blood cells classified elsewhere (D70-D72)",
+						"coagulation hemorrhagic disorders (D65-D68)",
+						"diagnostic abnormal findings classified elsewhere - see Alphabetical Index",
+						"hemorrhagic and hematological disorders of newborn (P50-P61)"
+					]
+				},
+				"diag": [
+					{
+						"name": "R70",
+						"desc": "Elevated erythrocyte sedimentation rate and abnormality of plasma viscosity",
+						"diag": [
+							{
+								"name": "R70.0",
+								"desc": "Elevated erythrocyte sedimentation rate"
+							},
+							{
+								"name": "R70.1",
+								"desc": "Abnormal plasma viscosity"
+							}
+						]
+					},
+					{
+						"name": "R71",
+						"desc": "Abnormality of red blood cells",
+						"excludes1": {
+							"note": [
+								"anemias (D50-D64)",
+								"anemia of premature infant (P61.2)",
+								"benign (familial) polycythemia (D75.0)",
+								"congenital anemias (P61.2-P61.4)",
+								"newborn anemia due to isoimmunization (P55.-)",
+								"polycythemia neonatorum (P61.1)",
+								"polycythemia NOS (D75.1)",
+								"polycythemia vera (D45)",
+								"secondary polycythemia (D75.1)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R71.0",
+								"desc": "Precipitous drop in hematocrit",
+								"inclusionTerm": {
+									"note": [
+										"Drop (precipitous) in hemoglobin",
+										"Drop in hematocrit"
+									]
+								}
+							},
+							{
+								"name": "R71.8",
+								"desc": "Other abnormality of red blood cells",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal red-cell morphology NOS",
+										"Abnormal red-cell volume NOS",
+										"Anisocytosis",
+										"Poikilocytosis"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R73",
+						"desc": "Elevated blood glucose level",
+						"excludes1": {
+							"note": [
+								"diabetes mellitus (E08-E13)",
+								"diabetes mellitus in pregnancy, childbirth and the puerperium (O24.-)",
+								"neonatal disorders (P70.0-P70.2)",
+								"postsurgical hypoinsulinemia (E89.1)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R73.0",
+								"desc": "Abnormal glucose",
+								"excludes1": {
+									"note": [
+										"abnormal glucose in pregnancy (O99.81-)",
+										"diabetes mellitus (E08-E13)",
+										"dysmetabolic syndrome X (E88.81)",
+										"gestational diabetes (O24.4-)",
+										"glycosuria (R81)",
+										"hypoglycemia (E16.2)"
+									]
+								},
+								"diag": [
+									{
+										"name": "R73.01",
+										"desc": "Impaired fasting glucose",
+										"inclusionTerm": {
+											"note": "Elevated fasting glucose"
+										}
+									},
+									{
+										"name": "R73.02",
+										"desc": "Impaired glucose tolerance (oral)",
+										"inclusionTerm": {
+											"note": "Elevated glucose tolerance"
+										}
+									},
+									{
+										"name": "R73.03",
+										"desc": "Prediabetes",
+										"inclusionTerm": {
+											"note": "Latent diabetes"
+										}
+									},
+									{
+										"name": "R73.09",
+										"desc": "Other abnormal glucose",
+										"inclusionTerm": {
+											"note": [
+												"Abnormal glucose NOS",
+												"Abnormal non-fasting glucose tolerance"
+											]
+										}
+									}
+								]
+							},
+							{
+								"name": "R73.9",
+								"desc": "Hyperglycemia, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R74",
+						"desc": "Abnormal serum enzyme levels",
+						"diag": [
+							{
+								"name": "R74.0",
+								"desc": "Nonspecific elevation of levels of transaminase and lactic acid dehydrogenase [LDH]"
+							},
+							{
+								"name": "R74.8",
+								"desc": "Abnormal levels of other serum enzymes",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal level of acid phosphatase",
+										"Abnormal level of alkaline phosphatase",
+										"Abnormal level of amylase",
+										"Abnormal level of lipase [triacylglycerol lipase]"
+									]
+								}
+							},
+							{
+								"name": "R74.9",
+								"desc": "Abnormal serum enzyme level, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R75",
+						"desc": "Inconclusive laboratory evidence of human immunodeficiency virus [HIV]",
+						"inclusionTerm": {
+							"note": "Nonconclusive HIV-test finding in infants"
+						},
+						"excludes1": {
+							"note": [
+								"asymptomatic human immunodeficiency virus [HIV] infection status (Z21)",
+								"human immunodeficiency virus [HIV] disease (B20)"
+							]
+						}
+					},
+					{
+						"name": "R76",
+						"desc": "Other abnormal immunological findings in serum",
+						"diag": [
+							{
+								"name": "R76.0",
+								"desc": "Raised antibody titer",
+								"excludes1": {
+									"note": [
+										"isoimmunization in pregnancy (O36.0-O36.1)",
+										"isoimmunization affecting newborn (P55.-)"
+									]
+								}
+							},
+							{
+								"name": "R76.1",
+								"desc": "Nonspecific reaction to test for tuberculosis",
+								"diag": [
+									{
+										"name": "R76.11",
+										"desc": "Nonspecific reaction to tuberculin skin test without active tuberculosis",
+										"inclusionTerm": {
+											"note": [
+												"Abnormal result of Mantoux test",
+												"PPD positive",
+												"Tuberculin (skin test) positive",
+												"Tuberculin (skin test) reactor"
+											]
+										},
+										"excludes1": {
+											"note": "nonspecific reaction to cell mediated immunity measurement of gamma interferon antigen response without active tuberculosis (R76.12)"
+										}
+									},
+									{
+										"name": "R76.12",
+										"desc": "Nonspecific reaction to cell mediated immunity measurement of gamma interferon antigen response without active tuberculosis",
+										"inclusionTerm": {
+											"note": "Nonspecific reaction to QuantiFERON-TB test (QFT) without active tuberculosis"
+										},
+										"excludes1": {
+											"note": [
+												"nonspecific reaction to tuberculin skin test without active tuberculosis (R76.11)",
+												"positive tuberculin skin test (R76.11)"
+											]
+										}
+									}
+								]
+							},
+							{
+								"name": "R76.8",
+								"desc": "Other specified abnormal immunological findings in serum",
+								"inclusionTerm": {
+									"note": "Raised level of immunoglobulins NOS"
+								}
+							},
+							{
+								"name": "R76.9",
+								"desc": "Abnormal immunological finding in serum, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R77",
+						"desc": "Other abnormalities of plasma proteins",
+						"excludes1": {
+							"note": "disorders of plasma-protein metabolism (E88.0)"
+						},
+						"diag": [
+							{
+								"name": "R77.0",
+								"desc": "Abnormality of albumin"
+							},
+							{
+								"name": "R77.1",
+								"desc": "Abnormality of globulin",
+								"inclusionTerm": {
+									"note": "Hyperglobulinemia NOS"
+								}
+							},
+							{
+								"name": "R77.2",
+								"desc": "Abnormality of alphafetoprotein"
+							},
+							{
+								"name": "R77.8",
+								"desc": "Other specified abnormalities of plasma proteins"
+							},
+							{
+								"name": "R77.9",
+								"desc": "Abnormality of plasma protein, unspecified"
+							}
+						]
+					},
+					{
+						"name": "R78",
+						"desc": "Findings of drugs and other substances, not normally found in blood",
+						"useAdditionalCode": {
+							"note": "code to identify the any retained foreign body, if applicable (Z18.-)"
+						},
+						"excludes1": {
+							"note": "mental or behavioral disorders due to psychoactive substance use (F10-F19)"
+						},
+						"diag": [
+							{
+								"name": "R78.0",
+								"desc": "Finding of alcohol in blood",
+								"useAdditionalCode": {
+									"note": "external cause code (Y90.-), for detail regarding alcohol level."
+								}
+							},
+							{
+								"name": "R78.1",
+								"desc": "Finding of opiate drug in blood"
+							},
+							{
+								"name": "R78.2",
+								"desc": "Finding of cocaine in blood"
+							},
+							{
+								"name": "R78.3",
+								"desc": "Finding of hallucinogen in blood"
+							},
+							{
+								"name": "R78.4",
+								"desc": "Finding of other drugs of addictive potential in blood"
+							},
+							{
+								"name": "R78.5",
+								"desc": "Finding of other psychotropic drug in blood"
+							},
+							{
+								"name": "R78.6",
+								"desc": "Finding of steroid agent in blood"
+							},
+							{
+								"name": "R78.7",
+								"desc": "Finding of abnormal level of heavy metals in blood",
+								"diag": [
+									{
+										"name": "R78.71",
+										"desc": "Abnormal lead level in blood",
+										"excludes1": {
+											"note": "lead poisoning (T56.0-)"
+										}
+									},
+									{
+										"name": "R78.79",
+										"desc": "Finding of abnormal level of heavy metals in blood"
+									}
+								]
+							},
+							{
+								"name": "R78.8",
+								"desc": "Finding of other specified substances, not normally found in blood",
+								"diag": [
+									{
+										"name": "R78.81",
+										"desc": "Bacteremia",
+										"excludes1": {
+											"note": "sepsis-code to specified infection"
+										}
+									},
+									{
+										"name": "R78.89",
+										"desc": "Finding of other specified substances, not normally found in blood",
+										"inclusionTerm": {
+											"note": "Finding of abnormal level of lithium in blood"
+										}
+									}
+								]
+							},
+							{
+								"name": "R78.9",
+								"desc": "Finding of unspecified substance, not normally found in blood"
+							}
+						]
+					},
+					{
+						"name": "R79",
+						"desc": "Other abnormal findings of blood chemistry",
+						"useAdditionalCode": {
+							"note": "code to identify any retained foreign body, if applicable (Z18.-)"
+						},
+						"excludes1": {
+							"note": [
+								"asymptomatic hyperuricemia (E79.0)",
+								"hyperglycemia NOS (R73.9)",
+								"hypoglycemia NOS (E16.2)",
+								"neonatal hypoglycemia (P70.3-P70.4)",
+								"specific findings indicating disorder of amino-acid metabolism (E70-E72)",
+								"specific findings indicating disorder of carbohydrate metabolism (E73-E74)",
+								"specific findings indicating disorder of lipid metabolism (E75.-)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R79.0",
+								"desc": "Abnormal level of blood mineral",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal blood level of cobalt",
+										"Abnormal blood level of copper",
+										"Abnormal blood level of iron",
+										"Abnormal blood level of magnesium",
+										"Abnormal blood level of mineral NEC",
+										"Abnormal blood level of zinc"
+									]
+								},
+								"excludes1": {
+									"note": [
+										"abnormal level of lithium (R78.89)",
+										"disorders of mineral metabolism (E83.-)",
+										"neonatal hypomagnesemia (P71.2)",
+										"nutritional mineral deficiency (E58-E61)"
+									]
+								}
+							},
+							{
+								"name": "R79.1",
+								"desc": "Abnormal coagulation profile",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal or prolonged bleeding time",
+										"Abnormal or prolonged coagulation time",
+										"Abnormal or prolonged partial thromboplastin time [PTT]",
+										"Abnormal or prolonged prothrombin time [PT]"
+									]
+								},
+								"excludes1": {
+									"note": "coagulation defects (D68.-)"
+								},
+								"excludes2": {
+									"note": "abnormality of fluid, electrolyte or acid-base balance (E86-E87)"
+								}
+							},
+							{
+								"name": "R79.8",
+								"desc": "Other specified abnormal findings of blood chemistry",
+								"diag": [
+									{
+										"name": "R79.81",
+										"desc": "Abnormal blood-gas level"
+									},
+									{
+										"name": "R79.82",
+										"desc": "Elevated C-reactive protein (CRP)"
+									},
+									{
+										"name": "R79.89",
+										"desc": "Other specified abnormal findings of blood chemistry"
+									}
+								]
+							},
+							{
+								"name": "R79.9",
+								"desc": "Abnormal finding of blood chemistry, unspecified"
+							}
+						]
+					}
+				],
+				"_id": "R70-R79"
+			},
+			{
+				"desc": "Abnormal findings on examination of urine, without diagnosis (R80-R82)",
+				"excludes1": {
+					"note": [
+						"abnormal findings on antenatal screening of mother (O28.-)",
+						"diagnostic abnormal findings classified elsewhere - see Alphabetical Index",
+						"specific findings indicating disorder of amino-acid metabolism (E70-E72)",
+						"specific findings indicating disorder of carbohydrate metabolism (E73-E74)"
+					]
+				},
+				"diag": [
+					{
+						"name": "R80",
+						"desc": "Proteinuria",
+						"excludes1": {
+							"note": "gestational proteinuria (O12.1-)"
+						},
+						"diag": [
+							{
+								"name": "R80.0",
+								"desc": "Isolated proteinuria",
+								"inclusionTerm": {
+									"note": "Idiopathic proteinuria"
+								},
+								"excludes1": {
+									"note": "isolated proteinuria with specific morphological lesion (N06.-)"
+								}
+							},
+							{
+								"name": "R80.1",
+								"desc": "Persistent proteinuria, unspecified"
+							},
+							{
+								"name": "R80.2",
+								"desc": "Orthostatic proteinuria, unspecified",
+								"inclusionTerm": {
+									"note": "Postural proteinuria"
+								}
+							},
+							{
+								"name": "R80.3",
+								"desc": "Bence Jones proteinuria"
+							},
+							{
+								"name": "R80.8",
+								"desc": "Other proteinuria"
+							},
+							{
+								"name": "R80.9",
+								"desc": "Proteinuria, unspecified",
+								"inclusionTerm": {
+									"note": "Albuminuria NOS"
+								}
+							}
+						]
+					},
+					{
+						"name": "R81",
+						"desc": "Glycosuria",
+						"excludes1": {
+							"note": "renal glycosuria (E74.8)"
+						}
+					},
+					{
+						"name": "R82",
+						"desc": "Other and unspecified abnormal findings in urine",
+						"includes": {
+							"note": "chromoabnormalities in urine"
+						},
+						"useAdditionalCode": {
+							"note": "code to identify any retained foreign body, if applicable (Z18.-)"
+						},
+						"excludes2": {
+							"note": "hematuria (R31.-)"
+						},
+						"diag": [
+							{
+								"name": "R82.0",
+								"desc": "Chyluria",
+								"excludes1": {
+									"note": "filarial chyluria (B74.-)"
+								}
+							},
+							{
+								"name": "R82.1",
+								"desc": "Myoglobinuria"
+							},
+							{
+								"name": "R82.2",
+								"desc": "Biliuria"
+							},
+							{
+								"name": "R82.3",
+								"desc": "Hemoglobinuria",
+								"excludes1": {
+									"note": [
+										"hemoglobinuria due to hemolysis from external causes NEC (D59.6)",
+										"hemoglobinuria due to paroxysmal nocturnal [Marchiafava-Micheli] (D59.5)"
+									]
+								}
+							},
+							{
+								"name": "R82.4",
+								"desc": "Acetonuria",
+								"inclusionTerm": {
+									"note": "Ketonuria"
+								}
+							},
+							{
+								"name": "R82.5",
+								"desc": "Elevated urine levels of drugs, medicaments and biological substances",
+								"inclusionTerm": {
+									"note": [
+										"Elevated urine levels of catecholamines",
+										"Elevated urine levels of indoleacetic acid",
+										"Elevated urine levels of 17-ketosteroids",
+										"Elevated urine levels of steroids"
+									]
+								}
+							},
+							{
+								"name": "R82.6",
+								"desc": "Abnormal urine levels of substances chiefly nonmedicinal as to source",
+								"inclusionTerm": {
+									"note": "Abnormal urine level of heavy metals"
+								}
+							},
+							{
+								"name": "R82.7",
+								"desc": "Abnormal findings on microbiological examination of urine",
+								"excludes1": {
+									"note": "colonization status (Z22.-)"
+								},
+								"diag": [
+									{
+										"name": "R82.71",
+										"desc": "Bacteriuria"
+									},
+									{
+										"name": "R82.79",
+										"desc": "Other abnormal findings on microbiological examination of urine",
+										"inclusionTerm": {
+											"note": "Positive culture findings of urine"
+										}
+									}
+								]
+							},
+							{
+								"name": "R82.8",
+								"desc": "Abnormal findings on cytological and histological examination of urine"
+							},
+							{
+								"name": "R82.9",
+								"desc": "Other and unspecified abnormal findings in urine",
+								"diag": [
+									{
+										"name": "R82.90",
+										"desc": "Unspecified abnormal findings in urine"
+									},
+									{
+										"name": "R82.91",
+										"desc": "Other chromoabnormalities of urine",
+										"inclusionTerm": {
+											"note": [
+												"Chromoconversion (dipstick)",
+												"Idiopathic dipstick converts positive for blood with no cellular forms in sediment"
+											]
+										},
+										"excludes1": {
+											"note": [
+												"hemoglobinuria (R82.3)",
+												"myoglobinuria (R82.1)"
+											]
+										}
+									},
+									{
+										"name": "R82.99",
+										"desc": "Other abnormal findings in urine",
+										"inclusionTerm": {
+											"note": [
+												"Cells and casts in urine",
+												"Crystalluria",
+												"Melanuria"
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"_id": "R80-R82"
+			},
+			{
+				"desc": "Abnormal findings on examination of other body fluids, substances and tissues, without diagnosis  (R83-R89)",
+				"excludes1": {
+					"note": [
+						"abnormal findings on antenatal screening of mother (O28.-)",
+						"diagnostic abnormal findings classified elsewhere - see Alphabetical Index"
+					]
+				},
+				"excludes2": {
+					"note": [
+						"abnormal findings on examination of blood, without diagnosis (R70-R79)",
+						"abnormal findings on examination of urine, without diagnosis (R80-R82)",
+						"abnormal tumor markers (R97.-)"
+					]
+				},
+				"diag": [
+					{
+						"name": "R83",
+						"desc": "Abnormal findings in cerebrospinal fluid",
+						"diag": [
+							{
+								"name": "R83.0",
+								"desc": "Abnormal level of enzymes in cerebrospinal fluid"
+							},
+							{
+								"name": "R83.1",
+								"desc": "Abnormal level of hormones in cerebrospinal fluid"
+							},
+							{
+								"name": "R83.2",
+								"desc": "Abnormal level of other drugs, medicaments and biological substances in cerebrospinal fluid"
+							},
+							{
+								"name": "R83.3",
+								"desc": "Abnormal level of substances chiefly nonmedicinal as to source in cerebrospinal fluid"
+							},
+							{
+								"name": "R83.4",
+								"desc": "Abnormal immunological findings in cerebrospinal fluid"
+							},
+							{
+								"name": "R83.5",
+								"desc": "Abnormal microbiological findings in cerebrospinal fluid",
+								"inclusionTerm": {
+									"note": "Positive culture findings in cerebrospinal fluid"
+								},
+								"excludes1": {
+									"note": "colonization status (Z22.-)"
+								}
+							},
+							{
+								"name": "R83.6",
+								"desc": "Abnormal cytological findings in cerebrospinal fluid"
+							},
+							{
+								"name": "R83.8",
+								"desc": "Other abnormal findings in cerebrospinal fluid",
+								"inclusionTerm": {
+									"note": "Abnormal chromosomal findings in cerebrospinal fluid"
+								}
+							},
+							{
+								"name": "R83.9",
+								"desc": "Unspecified abnormal finding in cerebrospinal fluid"
+							}
+						]
+					},
+					{
+						"name": "R84",
+						"desc": "Abnormal findings in specimens from respiratory organs and thorax",
+						"includes": {
+							"note": [
+								"abnormal findings in bronchial washings",
+								"abnormal findings in nasal secretions",
+								"abnormal findings in pleural fluid",
+								"abnormal findings in sputum",
+								"abnormal findings in throat scrapings"
+							]
+						},
+						"excludes1": {
+							"note": "blood-stained sputum (R04.2)"
+						},
+						"diag": [
+							{
+								"name": "R84.0",
+								"desc": "Abnormal level of enzymes in specimens from respiratory organs and thorax"
+							},
+							{
+								"name": "R84.1",
+								"desc": "Abnormal level of hormones in specimens from respiratory organs and thorax"
+							},
+							{
+								"name": "R84.2",
+								"desc": "Abnormal level of other drugs, medicaments and biological substances in specimens from respiratory organs and thorax"
+							},
+							{
+								"name": "R84.3",
+								"desc": "Abnormal level of substances chiefly nonmedicinal as to source in specimens from respiratory organs and thorax"
+							},
+							{
+								"name": "R84.4",
+								"desc": "Abnormal immunological findings in specimens from respiratory organs and thorax"
+							},
+							{
+								"name": "R84.5",
+								"desc": "Abnormal microbiological findings in specimens from respiratory organs and thorax",
+								"inclusionTerm": {
+									"note": "Positive culture findings in specimens from respiratory organs and thorax"
+								},
+								"excludes1": {
+									"note": "colonization status (Z22.-)"
+								}
+							},
+							{
+								"name": "R84.6",
+								"desc": "Abnormal cytological findings in specimens from respiratory organs and thorax"
+							},
+							{
+								"name": "R84.7",
+								"desc": "Abnormal histological findings in specimens from respiratory organs and thorax"
+							},
+							{
+								"name": "R84.8",
+								"desc": "Other abnormal findings in specimens from respiratory organs and thorax",
+								"inclusionTerm": {
+									"note": "Abnormal chromosomal findings in specimens from respiratory organs and thorax"
+								}
+							},
+							{
+								"name": "R84.9",
+								"desc": "Unspecified abnormal finding in specimens from respiratory organs and thorax"
+							}
+						]
+					},
+					{
+						"name": "R85",
+						"desc": "Abnormal findings in specimens from digestive organs and abdominal cavity",
+						"includes": {
+							"note": [
+								"abnormal findings in peritoneal fluid",
+								"abnormal findings in saliva"
+							]
+						},
+						"excludes1": {
+							"note": [
+								"cloudy peritoneal dialysis effluent (R88.0)",
+								"fecal abnormalities (R19.5)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R85.0",
+								"desc": "Abnormal level of enzymes in specimens from digestive organs and abdominal cavity"
+							},
+							{
+								"name": "R85.1",
+								"desc": "Abnormal level of hormones in specimens from digestive organs and abdominal cavity"
+							},
+							{
+								"name": "R85.2",
+								"desc": "Abnormal level of other drugs, medicaments and biological substances in specimens from digestive organs and abdominal cavity"
+							},
+							{
+								"name": "R85.3",
+								"desc": "Abnormal level of substances chiefly nonmedicinal as to source in specimens from digestive organs and abdominal cavity"
+							},
+							{
+								"name": "R85.4",
+								"desc": "Abnormal immunological findings in specimens from digestive organs and abdominal cavity"
+							},
+							{
+								"name": "R85.5",
+								"desc": "Abnormal microbiological findings in specimens from digestive organs and abdominal cavity",
+								"inclusionTerm": {
+									"note": "Positive culture findings in specimens from digestive organs and abdominal cavity"
+								},
+								"excludes1": {
+									"note": "colonization status (Z22.-)"
+								}
+							},
+							{
+								"name": "R85.6",
+								"desc": "Abnormal cytological findings in specimens from digestive organs and abdominal cavity",
+								"diag": [
+									{
+										"name": "R85.61",
+										"desc": "Abnormal cytologic smear of anus",
+										"excludes1": {
+											"note": [
+												"abnormal cytological findings in specimens from other digestive organs and abdominal cavity (R85.69)",
+												"carcinoma in situ of anus (histologically confirmed) (D01.3)",
+												"anal intraepithelial neoplasia I [AIN I] (K62.82)",
+												"anal intraepithelial neoplasia II [AIN II] (K62.82)",
+												"anal intraepithelial neoplasia III [AIN III] (D01.3)",
+												"dysplasia (mild) (moderate) of anus (histologically confirmed) (K62.82)",
+												"severe dysplasia of anus (histologically confirmed) (D01.3)"
+											]
+										},
+										"excludes2": {
+											"note": [
+												"anal high risk human papillomavirus (HPV) DNA test positive (R85.81)",
+												"anal low risk human papillomavirus (HPV) DNA test positive (R85.82)"
+											]
+										},
+										"diag": [
+											{
+												"name": "R85.610",
+												"desc": "Atypical squamous cells of undetermined significance on cytologic smear of anus (ASC-US)"
+											},
+											{
+												"name": "R85.611",
+												"desc": "Atypical squamous cells cannot exclude high grade squamous intraepithelial lesion on cytologic smear of anus (ASC-H)"
+											},
+											{
+												"name": "R85.612",
+												"desc": "Low grade squamous intraepithelial lesion on cytologic smear of anus (LGSIL)"
+											},
+											{
+												"name": "R85.613",
+												"desc": "High grade squamous intraepithelial lesion on cytologic smear of anus (HGSIL)"
+											},
+											{
+												"name": "R85.614",
+												"desc": "Cytologic evidence of malignancy on smear of anus"
+											},
+											{
+												"name": "R85.615",
+												"desc": "Unsatisfactory cytologic smear of anus",
+												"inclusionTerm": {
+													"note": "Inadequate sample of cytologic smear of anus"
+												}
+											},
+											{
+												"name": "R85.616",
+												"desc": "Satisfactory anal smear but lacking transformation zone"
+											},
+											{
+												"name": "R85.618",
+												"desc": "Other abnormal cytological findings on specimens from anus"
+											},
+											{
+												"name": "R85.619",
+												"desc": "Unspecified abnormal cytological findings in specimens from anus",
+												"inclusionTerm": {
+													"note": [
+														"Abnormal anal cytology NOS",
+														"Atypical glandular cells of anus NOS"
+													]
+												}
+											}
+										]
+									},
+									{
+										"name": "R85.69",
+										"desc": "Abnormal cytological findings in specimens from other digestive organs and abdominal cavity"
+									}
+								]
+							},
+							{
+								"name": "R85.7",
+								"desc": "Abnormal histological findings in specimens from digestive organs and abdominal cavity"
+							},
+							{
+								"name": "R85.8",
+								"desc": "Other abnormal findings in specimens from digestive organs and abdominal cavity",
+								"diag": [
+									{
+										"name": "R85.81",
+										"desc": "Anal high risk human papillomavirus (HPV) DNA test positive",
+										"excludes1": {
+											"note": [
+												"anogenital warts due to human papillomavirus (HPV) (A63.0)",
+												"condyloma acuminatum (A63.0)"
+											]
+										}
+									},
+									{
+										"name": "R85.82",
+										"desc": "Anal low risk human papillomavirus (HPV) DNA test positive",
+										"useAdditionalCode": {
+											"note": "code for associated human papillomavirus (B97.7)"
+										}
+									},
+									{
+										"name": "R85.89",
+										"desc": "Other abnormal findings in specimens from digestive organs and abdominal cavity",
+										"inclusionTerm": {
+											"note": "Abnormal chromosomal findings in specimens from digestive organs and abdominal cavity"
+										}
+									}
+								]
+							},
+							{
+								"name": "R85.9",
+								"desc": "Unspecified abnormal finding in specimens from digestive organs and abdominal cavity"
+							}
+						]
+					},
+					{
+						"name": "R86",
+						"desc": "Abnormal findings in specimens from male genital organs",
+						"includes": {
+							"note": [
+								"abnormal findings in prostatic secretions",
+								"abnormal findings in semen, seminal fluid",
+								"abnormal spermatozoa"
+							]
+						},
+						"excludes1": {
+							"note": [
+								"azoospermia (N46.0-)",
+								"oligospermia (N46.1-)"
+							]
+						},
+						"diag": [
+							{
+								"name": "R86.0",
+								"desc": "Abnormal level of enzymes in specimens from male genital organs"
+							},
+							{
+								"name": "R86.1",
+								"desc": "Abnormal level of hormones in specimens from male genital organs"
+							},
+							{
+								"name": "R86.2",
+								"desc": "Abnormal level of other drugs, medicaments and biological substances in specimens from male genital organs"
+							},
+							{
+								"name": "R86.3",
+								"desc": "Abnormal level of substances chiefly nonmedicinal as to source in specimens from male genital organs"
+							},
+							{
+								"name": "R86.4",
+								"desc": "Abnormal immunological findings in specimens from male genital organs"
+							},
+							{
+								"name": "R86.5",
+								"desc": "Abnormal microbiological findings in specimens from male genital organs",
+								"inclusionTerm": {
+									"note": "Positive culture findings in specimens from male genital organs"
+								},
+								"excludes1": {
+									"note": "colonization status (Z22.-)"
+								}
+							},
+							{
+								"name": "R86.6",
+								"desc": "Abnormal cytological findings in specimens from male genital organs"
+							},
+							{
+								"name": "R86.7",
+								"desc": "Abnormal histological findings in specimens from male genital organs"
+							},
+							{
+								"name": "R86.8",
+								"desc": "Other abnormal findings in specimens from male genital organs",
+								"inclusionTerm": {
+									"note": "Abnormal chromosomal findings in specimens from male genital organs"
+								}
+							},
+							{
+								"name": "R86.9",
+								"desc": "Unspecified abnormal finding in specimens from male genital organs"
+							}
+						]
+					},
+					{
+						"name": "R87",
+						"desc": "Abnormal findings in specimens from female genital organs",
+						"includes": {
+							"note": [
+								"abnormal findings in secretion and smears from cervix uteri",
+								"abnormal findings in secretion and smears from vagina",
+								"abnormal findings in secretion and smears from vulva"
+							]
+						},
+						"diag": [
+							{
+								"name": "R87.0",
+								"desc": "Abnormal level of enzymes in specimens from female genital organs"
+							},
+							{
+								"name": "R87.1",
+								"desc": "Abnormal level of hormones in specimens from female genital organs"
+							},
+							{
+								"name": "R87.2",
+								"desc": "Abnormal level of other drugs, medicaments and biological substances in specimens from female genital organs"
+							},
+							{
+								"name": "R87.3",
+								"desc": "Abnormal level of substances chiefly nonmedicinal as to source in specimens from female genital organs"
+							},
+							{
+								"name": "R87.4",
+								"desc": "Abnormal immunological findings in specimens from female genital organs"
+							},
+							{
+								"name": "R87.5",
+								"desc": "Abnormal microbiological findings in specimens from female genital organs",
+								"inclusionTerm": {
+									"note": "Positive culture findings in specimens from female genital organs"
+								},
+								"excludes1": {
+									"note": "colonization status (Z22.-)"
+								}
+							},
+							{
+								"name": "R87.6",
+								"desc": "Abnormal cytological findings in specimens from female genital organs",
+								"diag": [
+									{
+										"name": "R87.61",
+										"desc": "Abnormal cytological findings in specimens from cervix uteri",
+										"excludes1": {
+											"note": [
+												"abnormal cytological findings in specimens from other female genital organs (R87.69)",
+												"abnormal cytological findings in specimens from vagina (R87.62-)",
+												"carcinoma in situ of cervix uteri (histologically confirmed) (D06.-)",
+												"cervical intraepithelial neoplasia I [CIN I] (N87.0)",
+												"cervical intraepithelial neoplasia II [CIN II] (N87.1)",
+												"cervical intraepithelial neoplasia III [CIN III] (D06.-)",
+												"dysplasia (mild) (moderate) of cervix uteri (histologically confirmed) (N87.-)",
+												"severe dysplasia of cervix uteri (histologically confirmed) (D06.-)"
+											]
+										},
+										"excludes2": {
+											"note": [
+												"cervical high risk human papillomavirus (HPV) DNA test positive (R87.810)",
+												"cervical low risk human papillomavirus (HPV) DNA test positive (R87.820)"
+											]
+										},
+										"diag": [
+											{
+												"name": "R87.610",
+												"desc": "Atypical squamous cells of undetermined significance on cytologic smear of cervix (ASC-US)"
+											},
+											{
+												"name": "R87.611",
+												"desc": "Atypical squamous cells cannot exclude high grade squamous intraepithelial lesion on cytologic smear of cervix (ASC-H)"
+											},
+											{
+												"name": "R87.612",
+												"desc": "Low grade squamous intraepithelial lesion on cytologic smear of cervix (LGSIL)"
+											},
+											{
+												"name": "R87.613",
+												"desc": "High grade squamous intraepithelial lesion on cytologic smear of cervix (HGSIL)"
+											},
+											{
+												"name": "R87.614",
+												"desc": "Cytologic evidence of malignancy on smear of cervix"
+											},
+											{
+												"name": "R87.615",
+												"desc": "Unsatisfactory cytologic smear of cervix",
+												"inclusionTerm": {
+													"note": "Inadequate sample of cytologic smear of cervix"
+												}
+											},
+											{
+												"name": "R87.616",
+												"desc": "Satisfactory cervical smear but lacking transformation zone"
+											},
+											{
+												"name": "R87.618",
+												"desc": "Other abnormal cytological findings on specimens from cervix uteri"
+											},
+											{
+												"name": "R87.619",
+												"desc": "Unspecified abnormal cytological findings in specimens from cervix uteri",
+												"inclusionTerm": {
+													"note": [
+														"Abnormal cervical cytology NOS",
+														"Abnormal Papanicolaou smear of cervix NOS",
+														"Abnormal thin preparation smear of cervix NOS",
+														"Atypical endocervial cells of cervix NOS",
+														"Atypical endometrial cells of cervix NOS",
+														"Atypical glandular cells of cervix NOS"
+													]
+												}
+											}
+										]
+									},
+									{
+										"name": "R87.62",
+										"desc": "Abnormal cytological findings in specimens from vagina",
+										"useAdditionalCode": {
+											"note": "code to identify acquired absence of uterus and cervix, if applicable (Z90.71-)"
+										},
+										"excludes1": {
+											"note": [
+												"abnormal cytological findings in specimens from cervix uteri (R87.61-)",
+												"abnormal cytological findings in specimens from other female genital organs (R87.69)",
+												"carcinoma in situ of vagina (histologically confirmed) (D07.2)",
+												"vaginal intraepithelial neoplasia I [VAIN I] (N89.0)",
+												"vaginal intraepithelial neoplasia II [VAIN II] (N89.1)",
+												"vaginal intraepithelial neoplasia III [VAIN III] (D07.2)",
+												"dysplasia (mild) (moderate) of vagina (histologically confirmed) (N89.-)",
+												"severe dysplasia of vagina (histologically confirmed) (D07.2)"
+											]
+										},
+										"excludes2": {
+											"note": [
+												"vaginal high risk human papillomavirus (HPV) DNA test positive (R87.811)",
+												"vaginal low risk human papillomavirus (HPV) DNA test positive (R87.821)"
+											]
+										},
+										"diag": [
+											{
+												"name": "R87.620",
+												"desc": "Atypical squamous cells of undetermined significance on cytologic smear of vagina (ASC-US)"
+											},
+											{
+												"name": "R87.621",
+												"desc": "Atypical squamous cells cannot exclude high grade squamous intraepithelial lesion on cytologic smear of vagina (ASC-H)"
+											},
+											{
+												"name": "R87.622",
+												"desc": "Low grade squamous intraepithelial lesion on cytologic smear of vagina (LGSIL)"
+											},
+											{
+												"name": "R87.623",
+												"desc": "High grade squamous intraepithelial lesion on cytologic smear of vagina (HGSIL)"
+											},
+											{
+												"name": "R87.624",
+												"desc": "Cytologic evidence of malignancy on smear of vagina"
+											},
+											{
+												"name": "R87.625",
+												"desc": "Unsatisfactory cytologic smear of vagina",
+												"inclusionTerm": {
+													"note": "Inadequate sample of cytologic smear of vagina"
+												}
+											},
+											{
+												"name": "R87.628",
+												"desc": "Other abnormal cytological findings on specimens from vagina"
+											},
+											{
+												"name": "R87.629",
+												"desc": "Unspecified abnormal cytological findings in specimens from vagina",
+												"inclusionTerm": {
+													"note": [
+														"Abnormal Papanicolaou smear of vagina NOS",
+														"Abnormal thin preparation smear of vagina NOS",
+														"Abnormal vaginal cytology NOS",
+														"Atypical endocervical cells of vagina NOS",
+														"Atypical endometrial cells of vagina NOS",
+														"Atypical glandular cells of vagina NOS"
+													]
+												}
+											}
+										]
+									},
+									{
+										"name": "R87.69",
+										"desc": "Abnormal cytological findings in specimens from other female genital organs",
+										"inclusionTerm": {
+											"note": "Abnormal cytological findings in specimens from female genital organs NOS"
+										},
+										"excludes1": {
+											"note": "dysplasia of vulva (histologically confirmed) (N90.0-N90.3)"
+										}
+									}
+								]
+							},
+							{
+								"name": "R87.7",
+								"desc": "Abnormal histological findings in specimens from female genital organs",
+								"excludes1": {
+									"note": [
+										"carcinoma in situ (histologically confirmed) of female genital organs (D06-D07.3)",
+										"cervical intraepithelial neoplasia I [CIN I] (N87.0)",
+										"cervical intraepithelial neoplasia II [CIN II] (N87.1)",
+										"cervical intraepithelial neoplasia III [CIN III] (D06.-)",
+										"dysplasia (mild) (moderate) of cervix uteri (histologically confirmed) (N87.-)",
+										"dysplasia (mild) (moderate) of vagina (histologically confirmed) (N89.-)",
+										"vaginal intraepithelial neoplasia I [VAIN I] (N89.0)",
+										"vaginal intraepithelial neoplasia II [VAIN II] (N89.1)",
+										"vaginal intraepithelial neoplasia III [VAIN III] (D07.2)",
+										"severe dysplasia of cervix uteri (histologically confirmed) (D06.-)",
+										"severe dysplasia of vagina (histologically confirmed) (D07.2)"
+									]
+								}
+							},
+							{
+								"name": "R87.8",
+								"desc": "Other abnormal findings in specimens from female genital organs",
+								"diag": [
+									{
+										"name": "R87.81",
+										"desc": "High risk human papillomavirus (HPV) DNA test positive from female genital organs",
+										"excludes1": {
+											"note": [
+												"anogenital warts due to human papillomavirus (HPV) (A63.0)",
+												"condyloma acuminatum (A63.0)"
+											]
+										},
+										"diag": [
+											{
+												"name": "R87.810",
+												"desc": "Cervical high risk human papillomavirus (HPV) DNA test positive"
+											},
+											{
+												"name": "R87.811",
+												"desc": "Vaginal high risk human papillomavirus (HPV) DNA test positive"
+											}
+										]
+									},
+									{
+										"name": "R87.82",
+										"desc": "Low risk human papillomavirus (HPV) DNA test positive from female genital organs",
+										"useAdditionalCode": {
+											"note": "code for associated human papillomavirus (B97.7)"
+										},
+										"diag": [
+											{
+												"name": "R87.820",
+												"desc": "Cervical low risk human papillomavirus (HPV) DNA test positive"
+											},
+											{
+												"name": "R87.821",
+												"desc": "Vaginal low risk human papillomavirus (HPV) DNA test positive"
+											}
+										]
+									},
+									{
+										"name": "R87.89",
+										"desc": "Other abnormal findings in specimens from female genital organs",
+										"inclusionTerm": {
+											"note": "Abnormal chromosomal findings in specimens from female genital organs"
+										}
+									}
+								]
+							},
+							{
+								"name": "R87.9",
+								"desc": "Unspecified abnormal finding in specimens from female genital organs"
+							}
+						]
+					},
+					{
+						"name": "R88",
+						"desc": "Abnormal findings in other body fluids and substances",
+						"diag": [
+							{
+								"name": "R88.0",
+								"desc": "Cloudy (hemodialysis) (peritoneal) dialysis effluent"
+							},
+							{
+								"name": "R88.8",
+								"desc": "Abnormal findings in other body fluids and substances"
+							}
+						]
+					},
+					{
+						"name": "R89",
+						"desc": "Abnormal findings in specimens from other organs, systems and tissues",
+						"includes": {
+							"note": [
+								"abnormal findings in nipple discharge",
+								"abnormal findings in synovial fluid",
+								"abnormal findings in wound secretions"
+							]
+						},
+						"diag": [
+							{
+								"name": "R89.0",
+								"desc": "Abnormal level of enzymes in specimens from other organs, systems and tissues"
+							},
+							{
+								"name": "R89.1",
+								"desc": "Abnormal level of hormones in specimens from other organs, systems and tissues"
+							},
+							{
+								"name": "R89.2",
+								"desc": "Abnormal level of other drugs, medicaments and biological substances in specimens from other organs, systems and tissues"
+							},
+							{
+								"name": "R89.3",
+								"desc": "Abnormal level of substances chiefly nonmedicinal as to source in specimens from other organs, systems and tissues"
+							},
+							{
+								"name": "R89.4",
+								"desc": "Abnormal immunological findings in specimens from other organs, systems and tissues"
+							},
+							{
+								"name": "R89.5",
+								"desc": "Abnormal microbiological findings in specimens from other organs, systems and tissues",
+								"inclusionTerm": {
+									"note": "Positive culture findings in specimens from other organs, systems and tissues"
+								},
+								"excludes1": {
+									"note": "colonization status (Z22.-)"
+								}
+							},
+							{
+								"name": "R89.6",
+								"desc": "Abnormal cytological findings in specimens from other organs, systems and tissues"
+							},
+							{
+								"name": "R89.7",
+								"desc": "Abnormal histological findings in specimens from other organs, systems and tissues"
+							},
+							{
+								"name": "R89.8",
+								"desc": "Other abnormal findings in specimens from other organs, systems and tissues",
+								"inclusionTerm": {
+									"note": "Abnormal chromosomal findings in specimens from other organs, systems and tissues"
+								}
+							},
+							{
+								"name": "R89.9",
+								"desc": "Unspecified abnormal finding in specimens from other organs, systems and tissues"
+							}
+						]
+					}
+				],
+				"_id": "R83-R89"
+			},
+			{
+				"desc": "Abnormal findings on diagnostic imaging and in function studies, without diagnosis (R90-R94)",
+				"includes": {
+					"note": [
+						"nonspecific abnormal findings on diagnostic imaging by computerized axial tomography [CAT scan]",
+						"nonspecific abnormal findings on diagnostic imaging by magnetic resonance imaging [MRI][NMR]",
+						"nonspecific abnormal findings on diagnostic imaging by positron emission tomography [PET scan]",
+						"nonspecific abnormal findings on diagnostic imaging by thermography",
+						"nonspecific abnormal findings on diagnostic imaging by ultrasound [echogram]",
+						"nonspecific abnormal findings on diagnostic imaging by X-ray examination"
+					]
+				},
+				"excludes1": {
+					"note": [
+						"abnormal findings on antenatal screening of mother (O28.-)",
+						"diagnostic abnormal findings classified elsewhere - see Alphabetical Index"
+					]
+				},
+				"diag": [
+					{
+						"name": "R90",
+						"desc": "Abnormal findings on diagnostic imaging of central nervous system",
+						"diag": [
+							{
+								"name": "R90.0",
+								"desc": "Intracranial space-occupying lesion found on diagnostic imaging of central nervous system"
+							},
+							{
+								"name": "R90.8",
+								"desc": "Other abnormal findings on diagnostic imaging of central nervous system",
+								"diag": [
+									{
+										"name": "R90.81",
+										"desc": "Abnormal echoencephalogram"
+									},
+									{
+										"name": "R90.82",
+										"desc": "White matter disease, unspecified"
+									},
+									{
+										"name": "R90.89",
+										"desc": "Other abnormal findings on diagnostic imaging of central nervous system",
+										"inclusionTerm": {
+											"note": "Other cerebrovascular abnormality found on diagnostic imaging of central nervous system"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "R91",
+						"desc": "Abnormal findings on diagnostic imaging of lung",
+						"diag": [
+							{
+								"name": "R91.1",
+								"desc": "Solitary pulmonary nodule",
+								"inclusionTerm": {
+									"note": [
+										"Coin lesion lung",
+										"Solitary pulmonary nodule, subsegmental branch of the bronchial tree"
+									]
+								}
+							},
+							{
+								"name": "R91.8",
+								"desc": "Other nonspecific abnormal finding of lung field",
+								"inclusionTerm": {
+									"note": [
+										"Lung mass NOS found on diagnostic imaging of lung",
+										"Pulmonary infiltrate NOS",
+										"Shadow, lung"
+									]
+								}
+							}
+						]
+					},
+					{
+						"name": "R92",
+						"desc": "Abnormal and inconclusive findings on diagnostic imaging of breast",
+						"diag": [
+							{
+								"name": "R92.0",
+								"desc": "Mammographic microcalcification found on diagnostic imaging of breast",
+								"excludes2": {
+									"note": "mammographic calcification (calculus) found on diagnostic imaging of breast (R92.1)"
+								}
+							},
+							{
+								"name": "R92.1",
+								"desc": "Mammographic calcification found on diagnostic imaging of breast",
+								"inclusionTerm": {
+									"note": "Mammographic calculus found on diagnostic imaging of breast"
+								}
+							},
+							{
+								"name": "R92.2",
+								"desc": "Inconclusive mammogram",
+								"inclusionTerm": {
+									"note": [
+										"Dense breasts NOS",
+										"Inconclusive mammogram NEC",
+										"Inconclusive mammography due to dense breasts",
+										"Inconclusive mammography NEC"
+									]
+								}
+							},
+							{
+								"name": "R92.8",
+								"desc": "Other abnormal and inconclusive findings on diagnostic imaging of breast"
+							}
+						]
+					},
+					{
+						"name": "R93",
+						"desc": "Abnormal findings on diagnostic imaging of other body structures",
+						"diag": [
+							{
+								"name": "R93.0",
+								"desc": "Abnormal findings on diagnostic imaging of skull and head, not elsewhere classified",
+								"excludes1": {
+									"note": "intracranial space-occupying lesion found on diagnostic imaging (R90.0)"
+								}
+							},
+							{
+								"name": "R93.1",
+								"desc": "Abnormal findings on diagnostic imaging of heart and coronary circulation",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal echocardiogram NOS",
+										"Abnormal heart shadow"
+									]
+								}
+							},
+							{
+								"name": "R93.2",
+								"desc": "Abnormal findings on diagnostic imaging of liver and biliary tract",
+								"inclusionTerm": {
+									"note": "Nonvisualization of gallbladder"
+								}
+							},
+							{
+								"name": "R93.3",
+								"desc": "Abnormal findings on diagnostic imaging of other parts of digestive tract"
+							},
+							{
+								"name": "R93.4",
+								"desc": "Abnormal findings on diagnostic imaging of urinary organs",
+								"excludes2": {
+									"note": "hypertrophy of kidney (N28.81)"
+								},
+								"diag": [
+									{
+										"name": "R93.41",
+										"desc": "Abnormal radiologic findings on diagnostic imaging of renal pelvis, ureter, or bladder",
+										"inclusionTerm": {
+											"note": [
+												"Filling defect of bladder found on diagnostic imaging",
+												"Filling defect of renal pelvis found on diagnostic imaging",
+												"Filling defect of ureter found on diagnostic imaging"
+											]
+										}
+									},
+									{
+										"name": "R93.42",
+										"desc": "Abnormal radiologic findings on diagnostic imaging of kidney",
+										"diag": [
+											{
+												"name": "R93.421",
+												"desc": "Abnormal radiologic findings on diagnostic imaging of right kidney"
+											},
+											{
+												"name": "R93.422",
+												"desc": "Abnormal radiologic findings on diagnostic imaging of left kidney"
+											},
+											{
+												"name": "R93.429",
+												"desc": "Abnormal radiologic findings on diagnostic imaging of unspecified kidney"
+											}
+										]
+									},
+									{
+										"name": "R93.49",
+										"desc": "Abnormal radiologic findings on diagnostic imaging of other urinary organs"
+									}
+								]
+							},
+							{
+								"name": "R93.5",
+								"desc": "Abnormal findings on diagnostic imaging of other abdominal regions, including retroperitoneum"
+							},
+							{
+								"name": "R93.6",
+								"desc": "Abnormal findings on diagnostic imaging of limbs",
+								"excludes2": {
+									"note": "abnormal finding in skin and subcutaneous tissue (R93.8)"
+								}
+							},
+							{
+								"name": "R93.7",
+								"desc": "Abnormal findings on diagnostic imaging of other parts of musculoskeletal system",
+								"excludes2": {
+									"note": "abnormal findings on diagnostic imaging of skull (R93.0)"
+								}
+							},
+							{
+								"name": "R93.8",
+								"desc": "Abnormal findings on diagnostic imaging of other specified body structures",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal finding by radioisotope localization of placenta",
+										"Abnormal radiological finding in skin and subcutaneous tissue",
+										"Mediastinal shift"
+									]
+								}
+							},
+							{
+								"name": "R93.9",
+								"desc": "Diagnostic imaging inconclusive due to excess body fat of patient"
+							}
+						]
+					},
+					{
+						"name": "R94",
+						"desc": "Abnormal results of function studies",
+						"includes": {
+							"note": [
+								"abnormal results of radionuclide [radioisotope] uptake studies",
+								"abnormal results of scintigraphy"
+							]
+						},
+						"diag": [
+							{
+								"name": "R94.0",
+								"desc": "Abnormal results of function studies of central nervous system",
+								"diag": [
+									{
+										"name": "R94.01",
+										"desc": "Abnormal electroencephalogram [EEG]"
+									},
+									{
+										"name": "R94.02",
+										"desc": "Abnormal brain scan"
+									},
+									{
+										"name": "R94.09",
+										"desc": "Abnormal results of other function studies of central nervous system"
+									}
+								]
+							},
+							{
+								"name": "R94.1",
+								"desc": "Abnormal results of function studies of peripheral nervous system and special senses",
+								"diag": [
+									{
+										"name": "R94.11",
+										"desc": "Abnormal results of function studies of eye",
+										"diag": [
+											{
+												"name": "R94.110",
+												"desc": "Abnormal electro-oculogram [EOG]"
+											},
+											{
+												"name": "R94.111",
+												"desc": "Abnormal electroretinogram [ERG]",
+												"inclusionTerm": {
+													"note": "Abnormal retinal function study"
+												}
+											},
+											{
+												"name": "R94.112",
+												"desc": "Abnormal visually evoked potential [VEP]"
+											},
+											{
+												"name": "R94.113",
+												"desc": "Abnormal oculomotor study"
+											},
+											{
+												"name": "R94.118",
+												"desc": "Abnormal results of other function studies of eye"
+											}
+										]
+									},
+									{
+										"name": "R94.12",
+										"desc": "Abnormal results of function studies of ear and other special senses",
+										"diag": [
+											{
+												"name": "R94.120",
+												"desc": "Abnormal auditory function study"
+											},
+											{
+												"name": "R94.121",
+												"desc": "Abnormal vestibular function study"
+											},
+											{
+												"name": "R94.128",
+												"desc": "Abnormal results of other function studies of ear and other special senses"
+											}
+										]
+									},
+									{
+										"name": "R94.13",
+										"desc": "Abnormal results of function studies of peripheral nervous system",
+										"diag": [
+											{
+												"name": "R94.130",
+												"desc": "Abnormal response to nerve stimulation, unspecified"
+											},
+											{
+												"name": "R94.131",
+												"desc": "Abnormal electromyogram [EMG]",
+												"excludes1": {
+													"note": "electromyogram of eye (R94.113)"
+												}
+											},
+											{
+												"name": "R94.138",
+												"desc": "Abnormal results of other function studies of peripheral nervous system"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "R94.2",
+								"desc": "Abnormal results of pulmonary function studies",
+								"inclusionTerm": {
+									"note": [
+										"Reduced ventilatory capacity",
+										"Reduced vital capacity"
+									]
+								}
+							},
+							{
+								"name": "R94.3",
+								"desc": "Abnormal results of cardiovascular function studies",
+								"diag": [
+									{
+										"name": "R94.30",
+										"desc": "Abnormal result of cardiovascular function study, unspecified"
+									},
+									{
+										"name": "R94.31",
+										"desc": "Abnormal electrocardiogram [ECG] [EKG]",
+										"excludes1": {
+											"note": "long QT syndrome (I45.81)"
+										}
+									},
+									{
+										"name": "R94.39",
+										"desc": "Abnormal result of other cardiovascular function study",
+										"inclusionTerm": {
+											"note": [
+												"Abnormal electrophysiological intracardiac studies",
+												"Abnormal phonocardiogram",
+												"Abnormal vectorcardiogram"
+											]
+										}
+									}
+								]
+							},
+							{
+								"name": "R94.4",
+								"desc": "Abnormal results of kidney function studies",
+								"inclusionTerm": {
+									"note": "Abnormal renal function test"
+								}
+							},
+							{
+								"name": "R94.5",
+								"desc": "Abnormal results of liver function studies"
+							},
+							{
+								"name": "R94.6",
+								"desc": "Abnormal results of thyroid function studies"
+							},
+							{
+								"name": "R94.7",
+								"desc": "Abnormal results of other endocrine function studies",
+								"excludes2": {
+									"note": "abnormal glucose (R73.0-)"
+								}
+							},
+							{
+								"name": "R94.8",
+								"desc": "Abnormal results of function studies of other organs and systems",
+								"inclusionTerm": {
+									"note": [
+										"Abnormal basal metabolic rate [BMR]",
+										"Abnormal bladder function test",
+										"Abnormal splenic function test"
+									]
+								}
+							}
+						]
+					}
+				],
+				"_id": "R90-R94"
+			},
+			{
+				"desc": "Abnormal tumor markers (R97)",
+				"diag": [{
+					"name": "R97",
+					"desc": "Abnormal tumor markers",
+					"inclusionTerm": {
+						"note": [
+							"Elevated tumor associated antigens [TAA]",
+							"Elevated tumor specific antigens [TSA]"
+						]
+					},
+					"diag": [
+						{
+							"name": "R97.0",
+							"desc": "Elevated carcinoembryonic antigen [CEA]"
+						},
+						{
+							"name": "R97.1",
+							"desc": "Elevated cancer antigen 125 [CA 125]"
+						},
+						{
+							"name": "R97.2",
+							"desc": "Elevated prostate specific antigen [PSA]",
+							"diag": [
+								{
+									"name": "R97.20",
+									"desc": "Elevated prostate specific antigen [PSA]"
+								},
+								{
+									"name": "R97.21",
+									"desc": "Rising PSA following treatment for malignant neoplasm of prostate"
+								}
+							]
+						},
+						{
+							"name": "R97.8",
+							"desc": "Other abnormal tumor markers"
+						}
+					]
+				}],
+				"_id": "R97"
+			},
+			{
+				"desc": "Ill-defined and unknown cause of mortality (R99)",
+				"diag": [{
+					"name": "R99",
+					"desc": "Ill-defined and unknown cause of mortality",
+					"inclusionTerm": {
+						"note": [
+							"Death (unexplained) NOS",
+							"Unspecified cause of mortality"
+						]
+					}
+				}],
+				"_id": "R99"
+			}
+		]
+	}
