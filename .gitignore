@@ -1,0 +1,12 @@
+#igonre .sh files
+*.sh
+
+#ignore folders
+bin/
+etc/
+include/
+lib/
+
+#ignore folder '__pycache__'
+__pycache__
+
