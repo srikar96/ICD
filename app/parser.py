@@ -2,9 +2,13 @@ def file_call(word):
     import json
     import pprint
 
-    file = open('chap18_all.json')
+    file = open('../icd_full.json')
     data = json.load(file)
 
+    instructions = data['ICD10CM.tabular']['introduction']
+    version = data['ICD10CM.tabular']['version']
+    data = data['ICD10CM.tabular']['chapter']
+    
     def search(data):
         for val in data:
             if word in val['desc'].lower():
@@ -17,8 +21,10 @@ def file_call(word):
     # word = input('Enter search query: ')
 
     ls = []
-    for part in data['section']:
-        search(part['diag'])
+    for val in data:
+        for part in val['section']:
+            if 'diag' in part:
+                search(part['diag'])
 
     # print('Found {} results'.format(len(ls)))
     # pp = pprint.PrettyPrinter()

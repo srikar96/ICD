@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-<form method="get">
-  Search Query:<br>
-  <input type="text" id="button2" name="tosend">
-  <br>
-  <input type="submit" id="button2" value="Submit">
-</form>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-</body>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <style>
+  .content {
+    background-color: lightgrey;
+  }
+  </style>
+  
+  <body>
+    <div class="content">
+    <div class="container-fluid p-3 my-3 bg-dark text-white">
+      <div class="row">
+        <div class="col-md-4">
+          <form method="post" class="form-inline" action="/search/">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" name="val">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="col-md-8" style="background-color:powderblue;">
+          display
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3" style="background-color:orange;">
+          test
+        </div>
+        <div class="col-md-9" style="background-color:green;">
+          bfebvhw
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
 </html>

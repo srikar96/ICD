@@ -10,24 +10,15 @@ from parser import file_call
 app = Flask(__name__)
 
 @app.route('/')
-@app.route('/index')
-def index():
-    return "Hello, World!"
+def search_box():
+    return render_template('search.html')
 
-@app.route('/hello/<name>')
-def hello_var(name):
-    return render_template('test.html', name = name)
-
-@app.route('/search/<value>')
-def search_string(value):
+@app.route('/search/', methods = ['POST'])
+def search_string():
+    value = request.form['val']
     ret = file_call(value)
 
     return jsonify(ret)
-
-# @app.route('/result', methods=['GET', 'POST'])
-# def search_result():
-#     temp = request.get_json()
-#     return request.form['tosend']
 
 if __name__ == '__main__':
    app.run(debug = True)
